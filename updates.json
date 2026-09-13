@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-14",
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  {
     "date": "2026-09-13",
     "added": [
       {
@@ -19342,85 +19348,6 @@
         "Regio": "10",
         "Description": "10-118: Kenteken van 'Z-242-GX' naar 'KLK-34-T' aangepast",
         "Time": "14-08-2026 16:00:18"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-13",
-    "added": [
-      {
-        "Land": "NL",
-        "Hulpdienst": "Politie",
-        "Regio": "RT-POL",
-        "Description": "RT71/RT72 District Zeehavenpolitie/Teambureau Havens en Grens Rotterdam  toegevoegd aan Rotterdam",
-        "Time": "13-08-2026 13:00:16"
-      },
-      {
-        "Land": "NL",
-        "Hulpdienst": "Politie",
-        "Regio": "RT-POL",
-        "Description": "RT71 Teambureau Havens Rotterdam  toegevoegd aan Rotterdam",
-        "Time": "13-08-2026 13:00:16"
-      }
-    ],
-    "removed": [
-      {
-        "Land": "NL",
-        "Hulpdienst": "Politie",
-        "Regio": "RT-POL",
-        "Description": "RT71/RT72 District/Teambureau Haven Rotterdam  verwijderd van Rotterdam",
-        "Time": "13-08-2026 13:00:16"
-      },
-      {
-        "Land": "NL",
-        "Hulpdienst": "Politie",
-        "Regio": "RT-POL",
-        "Description": "RT71 Teambureau Haven Rotterdam  verwijderd van Rotterdam",
-        "Time": "13-08-2026 13:00:16"
-      }
-    ],
-    "changed": [
-      {
-        "Land": "BE",
-        "Hulpdienst": "Brandweer",
-        "Regio": "Antwerpen",
-        "Description": "T541: TypeVoertuig van 'Bos Autopomp Terreinvaardig' naar 'Bosbrand Autopomp Terreinvaardig' aangepast",
-        "Time": "13-08-2026 00:00:16"
-      },
-      {
-        "Land": "NL",
-        "Hulpdienst": "Brandweer",
-        "Regio": "11",
-        "Description": "11-0583: Afkorting van 'HA' naar 'BMH-OTO' aangepast",
-        "Time": "13-08-2026 11:00:17"
-      },
-      {
-        "Land": "NL",
-        "Hulpdienst": "Brandweer",
-        "Regio": "11",
-        "Description": "11-0583: TypeVoertuig van 'Haakarmvoertuig' naar 'Bijzonder materieel haakarmbak t.b.v. opleiding, training en oefenen' aangepast",
-        "Time": "13-08-2026 11:00:17"
-      },
-      {
-        "Land": "NL",
-        "Hulpdienst": "Brandweer",
-        "Regio": "11",
-        "Description": "11-0583: Kenteken van 'BX-RV-93' naar 'GEEN' aangepast",
-        "Time": "13-08-2026 11:00:17"
-      },
-      {
-        "Land": "NL",
-        "Hulpdienst": "Brandweer",
-        "Regio": "18",
-        "Description": "'GEEN' omgenummerd naar '26-8203'",
-        "Time": "13-08-2026 20:00:17"
-      },
-      {
-        "Land": "NL",
-        "Hulpdienst": "Brandweer",
-        "Regio": "18",
-        "Description": "'GEEN' omgenummerd naar '26-8204'",
-        "Time": "13-08-2026 20:00:17"
       }
     ]
   }

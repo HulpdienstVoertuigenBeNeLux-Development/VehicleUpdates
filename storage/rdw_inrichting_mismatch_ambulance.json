@@ -1,7 +1,7 @@
 {
   "naam": "ambulance",
   "hvb_count": 1654,
-  "rdw_count": 1356,
+  "rdw_count": 1355,
   "missing_in_rdw": [
     "17BNL2",
     "17SVG2",
@@ -871,7 +871,6 @@
     "R846FK",
     "R848FK",
     "RB065S",
-    "RF252Z",
     "RF656K",
     "RJ217R",
     "RJ817R",

@@ -6,9 +6,9 @@
   Brandweer
 ----------------------------------------------------------------------------------------
   HulpdienstvoertuigenBenelux : 5709
-  RDW inrichting dataset      : 2582
+  RDW inrichting dataset      : 2579
   Missing in RDW              : 3531
-  Extra in RDW                : 404
+  Extra in RDW                : 401
 
   Kentekens in HulpdienstvoertuigenBenelux maar niet in RDW:
   - 0022YK
@@ -3584,7 +3584,6 @@
   - 44BDL3
   - 45BRV1
   - 45BTB2
-  - 47BGB7
   - 48BRV1
   - 49BHF3
   - 4VFF58
@@ -3678,7 +3677,6 @@
   - BGXD75
   - BGXP90
   - BH38RN
-  - BH89BT
   - BH89HT
   - BHBB26
   - BHDD26
@@ -3750,7 +3748,6 @@
   - BPTR89
   - BPXJ31
   - BPXV52
-  - BPZV95
   - BR57DS
   - BRBS08
   - BRBZ99
