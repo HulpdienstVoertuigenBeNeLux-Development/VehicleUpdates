@@ -1,5 +1,11 @@
 [
   {
+    "roepnummer": "01-1001",
+    "kenteken": "JZN-85-S",
+    "bezetting": 5,
+    "zitplaatsen": 5
+  },
+  {
     "roepnummer": "01-1003",
     "kenteken": "ZB-105-K",
     "bezetting": 9,
@@ -332,6 +338,12 @@
   {
     "roepnummer": "01-1909",
     "kenteken": "ZG-287-B",
+    "bezetting": 5,
+    "zitplaatsen": 5
+  },
+  {
+    "roepnummer": "GEEN",
+    "kenteken": "JVZ-39-H",
     "bezetting": 5,
     "zitplaatsen": 5
   },
@@ -718,6 +730,12 @@
     "kenteken": "28-BDB-7",
     "bezetting": 7,
     "zitplaatsen": 7
+  },
+  {
+    "roepnummer": "01-3101",
+    "kenteken": "KVN-46-V",
+    "bezetting": 8,
+    "zitplaatsen": 8
   },
   {
     "roepnummer": "01-3131",
@@ -3232,6 +3250,12 @@
     "kenteken": "V-819-JS",
     "bezetting": 2,
     "zitplaatsen": 3
+  },
+  {
+    "roepnummer": "04-1501",
+    "kenteken": "KNP-94-H",
+    "bezetting": 5,
+    "zitplaatsen": 5
   },
   {
     "roepnummer": "04-1600",
@@ -19862,6 +19886,12 @@
   {
     "roepnummer": "28-4431",
     "kenteken": "LM-14-95",
+    "bezetting": 7,
+    "zitplaatsen": null
+  },
+  {
+    "roepnummer": "28-9833",
+    "kenteken": "DM-806-S",
     "bezetting": 7,
     "zitplaatsen": null
   },

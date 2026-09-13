@@ -5,9 +5,9 @@
 ----------------------------------------------------------------------------------------
   Brandweer
 ----------------------------------------------------------------------------------------
-  HulpdienstvoertuigenBenelux : 5703
+  HulpdienstvoertuigenBenelux : 5709
   RDW inrichting dataset      : 2582
-  Missing in RDW              : 3525
+  Missing in RDW              : 3531
   Extra in RDW                : 404
 
   Kentekens in HulpdienstvoertuigenBenelux maar niet in RDW:
@@ -1253,6 +1253,7 @@
   - DM803S
   - DM804S
   - DM805S
+  - DM806S
   - DM878H
   - DM879H
   - DM953D
@@ -1403,6 +1404,7 @@
   - H273PZ
   - H280PZ
   - H282PZ
+  - H285ZL
   - H332HS
   - H333HS
   - H334HS
@@ -1885,6 +1887,7 @@
   - JTV11J
   - JV355H
   - JVZ38H
+  - JVZ39H
   - JVZ40H
   - JVZ41H
   - JVZ42H
@@ -1907,6 +1910,7 @@
   - JZB56J
   - JZF79S
   - JZF83S
+  - JZN85S
   - JZN86S
   - JZR04S
   - JZR69R
@@ -2127,6 +2131,7 @@
   - KN704R
   - KN720R
   - KN9482
+  - KNP94H
   - KP020Z
   - KP021Z
   - KP022Z
@@ -2161,6 +2166,7 @@
   - KT956G
   - KT957G
   - KT958G
+  - KVN46V
   - KZ865K
   - L070FL
   - L071FL

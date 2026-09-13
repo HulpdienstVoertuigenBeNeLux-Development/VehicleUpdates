@@ -287,6 +287,17 @@
   },
   {
     "Adres": "Leek",
+    "Roepnummer": "01-1001",
+    "Afkorting": "DA",
+    "TypeVoertuig": "Dienstauto",
+    "Kenteken": "JZN-85-S",
+    "Bijzonderheden": "Bezetting: 5 personen.",
+    "Hulpdienst": "Brandweer",
+    "Regio": "1 - Groningen (VRG)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Leek",
     "Roepnummer": "01-1003",
     "Afkorting": "DB",
     "TypeVoertuig": "Dienstbus",
@@ -1689,6 +1700,17 @@
     "TypeVoertuig": "Bijzonder materieel haakarmbak t.b.v. opleiding, training en oefenen",
     "Kenteken": "GEEN",
     "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "1 - Groningen (VRG)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Groningen Hoofdpost",
+    "Roepnummer": "GEEN",
+    "Afkorting": "DA",
+    "TypeVoertuig": "Dienstauto",
+    "Kenteken": "JVZ-39-H",
+    "Bijzonderheden": "Bezetting: 5 personen.",
     "Hulpdienst": "Brandweer",
     "Regio": "1 - Groningen (VRG)",
     "Interne opmerking": ""
@@ -3135,7 +3157,18 @@
     "Interne opmerking": ""
   },
   {
-    "Adres": "Appingendam",
+    "Adres": "Appingedam",
+    "Roepnummer": "01-3101",
+    "Afkorting": "DB",
+    "TypeVoertuig": "Dienstbus",
+    "Kenteken": "KVN-46-V",
+    "Bijzonderheden": "Bezetting: 8 personen.",
+    "Hulpdienst": "Brandweer",
+    "Regio": "1 - Groningen (VRG)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Appingedam",
     "Roepnummer": "01-3131",
     "Afkorting": "TS",
     "TypeVoertuig": "Tankautospuit",
@@ -3146,7 +3179,7 @@
     "Interne opmerking": ""
   },
   {
-    "Adres": "Appingendam",
+    "Adres": "Appingedam",
     "Roepnummer": "01-3173",
     "Afkorting": "PM",
     "TypeVoertuig": "Personeel/materieelvoertuig",
@@ -10055,6 +10088,17 @@
   },
   {
     "Adres": "Coevorden",
+    "Roepnummer": "03-8814",
+    "Afkorting": "BRV-K",
+    "TypeVoertuig": "Brandweervaartuig klein",
+    "Kenteken": "GEEN",
+    "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "3 - Drenthe (VRD)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Coevorden",
     "Roepnummer": "03-8831",
     "Afkorting": "TS",
     "TypeVoertuig": "Tankautospuit",
@@ -12247,7 +12291,7 @@
     "Roepnummer": "04-1198",
     "Afkorting": "HOVD-B",
     "TypeVoertuig": "Hoofdofficier van dienst Brandweer",
-    "Kenteken": "",
+    "Kenteken": "H-285-ZL",
     "Bijzonderheden": "",
     "Hulpdienst": "Brandweer",
     "Regio": "4 - IJsselland (VRIJ)",
@@ -12260,6 +12304,17 @@
     "TypeVoertuig": "Voorlichter Brandweer",
     "Kenteken": "PG-728-J",
     "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "4 - IJsselland (VRIJ)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Zwolle (Hoofdpost)",
+    "Roepnummer": "04-1501",
+    "Afkorting": "DA",
+    "TypeVoertuig": "Dienstauto",
+    "Kenteken": "KNP-94-H",
+    "Bijzonderheden": "Bezetting: 5 personen.",
     "Hulpdienst": "Brandweer",
     "Regio": "4 - IJsselland (VRIJ)",
     "Interne opmerking": ""
@@ -85399,6 +85454,17 @@
     "TypeVoertuig": "On scene commander Defensie",
     "Kenteken": "D-775-MB",
     "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "28 - Defensie",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Vliegbasis Leeuwarden",
+    "Roepnummer": "28-9833",
+    "Afkorting": "TS-DF",
+    "TypeVoertuig": "Tankautospuit Defensie",
+    "Kenteken": "DM-806-S",
+    "Bijzonderheden": "Bezetting: 7 personen.",
     "Hulpdienst": "Brandweer",
     "Regio": "28 - Defensie",
     "Interne opmerking": ""

@@ -37184,6 +37184,14 @@
     "brandstof_omschrijving": "Elektriciteit"
   },
   {
+    "kenteken": "JVZ39H",
+    "merk": "OPEL",
+    "handelsbenaming": "CORSA",
+    "aantal_zitplaatsen": "5",
+    "bouwjaar": "2026",
+    "brandstof_omschrijving": "Elektriciteit"
+  },
+  {
     "kenteken": "JVZ40H",
     "merk": "OPEL",
     "handelsbenaming": "CORSA",
@@ -37558,6 +37566,14 @@
     "aantal_zitplaatsen": "4",
     "bouwjaar": "2026",
     "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "JZN85S",
+    "merk": "OPEL",
+    "handelsbenaming": "CORSA",
+    "aantal_zitplaatsen": "5",
+    "bouwjaar": "2026",
+    "brandstof_omschrijving": "Elektriciteit"
   },
   {
     "kenteken": "JZN86S",
@@ -40184,6 +40200,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "KNP94H",
+    "merk": "VOLKSWAGEN",
+    "handelsbenaming": "ID.3 PRO 150 KW",
+    "aantal_zitplaatsen": "5",
+    "bouwjaar": "2026",
+    "brandstof_omschrijving": "Elektriciteit"
+  },
+  {
     "kenteken": "KNX71T",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
@@ -40540,6 +40564,14 @@
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
     "aantal_zitplaatsen": "4",
+    "bouwjaar": "2026",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "KVN46V",
+    "merk": "TOYOTA",
+    "handelsbenaming": "PROACE",
+    "aantal_zitplaatsen": "8",
     "bouwjaar": "2026",
     "brandstof_omschrijving": "Diesel"
   },
