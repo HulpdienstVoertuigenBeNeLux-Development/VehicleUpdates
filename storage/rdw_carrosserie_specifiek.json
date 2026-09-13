@@ -338,6 +338,10 @@
     "no_data": true
   },
   {
+    "kenteken": "01ZFH9",
+    "no_data": true
+  },
+  {
     "kenteken": "01ZRR5",
     "no_data": true
   },
@@ -2904,6 +2908,13 @@
     "carrosserie_voertuig_nummer_code_volgnummer": "1",
     "carrosseriecode": "99",
     "carrosserie_voertuig_nummer_europese_omschrijving": "Niet in deze lijst opgenomen carrosserie"
+  },
+  {
+    "kenteken": "18WXLX",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "31",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
   },
   {
     "kenteken": "18ZDH9",
@@ -6114,6 +6125,10 @@
   },
   {
     "kenteken": "38WHXH",
+    "no_data": true
+  },
+  {
+    "kenteken": "38WJRK",
     "no_data": true
   },
   {
@@ -12593,10 +12608,6 @@
     "no_data": true
   },
   {
-    "kenteken": "7TPK43",
-    "no_data": true
-  },
-  {
     "kenteken": "7TPK44",
     "no_data": true
   },
@@ -17512,20 +17523,6 @@
     "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
   },
   {
-    "kenteken": "BD118K",
-    "carrosserie_volgnummer": "1",
-    "carrosserie_voertuig_nummer_code_volgnummer": "1",
-    "carrosseriecode": "31",
-    "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
-  },
-  {
-    "kenteken": "BD818L",
-    "carrosserie_volgnummer": "1",
-    "carrosserie_voertuig_nummer_code_volgnummer": "1",
-    "carrosseriecode": "31",
-    "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
-  },
-  {
     "kenteken": "BD004T",
     "carrosserie_volgnummer": "1",
     "carrosserie_voertuig_nummer_code_volgnummer": "1",
@@ -17640,6 +17637,13 @@
     "carrosserie_voertuig_nummer_code_volgnummer": "1",
     "carrosseriecode": "09",
     "carrosserie_voertuig_nummer_europese_omschrijving": "Voertuig met haakarm"
+  },
+  {
+    "kenteken": "BD118K",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "31",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
   },
   {
     "kenteken": "BD131F",
@@ -17994,6 +17998,13 @@
   },
   {
     "kenteken": "BD815P",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "31",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
+  },
+  {
+    "kenteken": "BD818L",
     "carrosserie_volgnummer": "1",
     "carrosserie_voertuig_nummer_code_volgnummer": "1",
     "carrosseriecode": "31",
@@ -26593,10 +26604,6 @@
     "no_data": true
   },
   {
-    "kenteken": "J805NB",
-    "no_data": true
-  },
-  {
     "kenteken": "J806NB",
     "no_data": true
   },
@@ -29034,6 +29041,10 @@
   },
   {
     "kenteken": "KGX69G",
+    "no_data": true
+  },
+  {
+    "kenteken": "KGX70G",
     "no_data": true
   },
   {
@@ -38487,6 +38498,10 @@
     "carrosserie_voertuig_nummer_code_volgnummer": "1",
     "carrosseriecode": "03",
     "carrosserie_voertuig_nummer_europese_omschrijving": "Gesloten opbouw"
+  },
+  {
+    "kenteken": "WY23ZG",
+    "no_data": true
   },
   {
     "kenteken": "WY83NB",

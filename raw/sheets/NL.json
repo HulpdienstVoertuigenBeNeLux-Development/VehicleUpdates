@@ -21299,7 +21299,7 @@
       "05-9402",
       "SAA",
       "Stroom aggregaat aanhanger",
-      "",
+      "WY-23-ZG",
       "",
       "Brandweer",
       "5 - Twente (VRT)",
@@ -21766,7 +21766,7 @@
       "Brandweer",
       "5 - Twente (VRT)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/05-5163-GEEN-1789295417535.webp",
       "",
       "VEH-006-POST-227"
     ],
@@ -21775,12 +21775,12 @@
       "05-5163",
       "DPA-GW",
       "Dompelpompaanhanger grootschalige watervoorziening",
-      "GEEN",
+      "18-WX-LX",
       "",
       "Brandweer",
       "5 - Twente (VRT)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/05-5163-18-WX-LX-1789298623998.webp",
       "",
       "VEH-007-POST-227"
     ],
@@ -21794,7 +21794,7 @@
       "Brandweer",
       "5 - Twente (VRT)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/05-5181-09-BHZ-9-1789295481006.webp",
       "",
       "VEH-008-POST-227"
     ],
@@ -22452,7 +22452,7 @@
       "Brandweer",
       "5 - Twente (VRT)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/05-9271-WT-BX-30-1789295585503.webp",
       "",
       "VEH-011-POST-233"
     ],
@@ -94692,7 +94692,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5182-BB-762-D-1789293259553.webp",
       "",
       "VEH-005-POST-960"
     ],
@@ -94832,7 +94832,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5083-57-BBN-6-1789293251478.webp",
       "",
       "VEH-005-POST-962"
     ],
@@ -95461,7 +95461,7 @@
       "Bezetting: 8 personen.",
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
-      "",
+      "Brandweer",
       "",
       "",
       "VEH-003-POST-971"
@@ -95475,10 +95475,24 @@
       "Lengte: 32 meter.",
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
-      "",
+      "Brandweer",
       "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-2351-BZ-LF-15-1785691043359.webp",
       "",
       "VEH-004-POST-971"
+    ],
+    [
+      "Eindhoven Centrum",
+      "22-5002",
+      "DA",
+      "Dienstauto",
+      "01-ZFH-9",
+      "Bezetting: 5 personen",
+      "Brandweer",
+      "22 - Brabant-Zuidoost (VRBZO)",
+      "Brandweer",
+      "",
+      "",
+      "VEH-005-POST-971"
     ],
     [
       "Eindhoven Centrum",
@@ -95492,7 +95506,7 @@
       "",
       "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5006-46-ZFT-5-1787907756692.webp",
       "",
-      "VEH-005-POST-971"
+      "VEH-006-POST-971"
     ],
     [
       "Eindhoven Centrum",
@@ -95506,7 +95520,7 @@
       "",
       "",
       "",
-      "VEH-006-POST-971"
+      "VEH-007-POST-971"
     ],
     [
       "Eindhoven Centrum",
@@ -95520,7 +95534,7 @@
       "",
       "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5102-13-ZDS-6-1785157086350.webp",
       "",
-      "VEH-007-POST-971"
+      "VEH-008-POST-971"
     ],
     [
       "Eindhoven Centrum",
@@ -95534,7 +95548,7 @@
       "",
       "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5125-P-533-SJ.webp",
       "",
-      "VEH-008-POST-971"
+      "VEH-009-POST-971"
     ],
     [
       "Eindhoven Centrum",
@@ -95548,7 +95562,7 @@
       "",
       "",
       "",
-      "VEH-009-POST-971"
+      "VEH-010-POST-971"
     ],
     [
       "22-23 Eindhoven TU/e, De Horsten 10",
@@ -95728,7 +95742,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5081-16-BZZ-7-1789293276330.webp",
       "",
       "VEH-010-POST-973"
     ],
@@ -95812,7 +95826,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5383-GEEN-1789293282094.webp",
       "",
       "VEH-016-POST-973"
     ],
@@ -95835,26 +95849,26 @@
       "22-5389",
       "BSA",
       "Brandstoftankaanhanger",
-      "GEEN",
+      "38-WJ-RK",
       "",
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5389-GEEN-1789293297680.webp",
       "",
       "VEH-018-POST-973"
     ],
     [
       "Eindhoven Woensel",
       "22-5496",
-      "HOVD-B",
-      "Hoofdofficier van dienst Brandweer",
-      "7-TPK-43",
+      "L-COPI",
+      "Leider COPI",
+      "H-626-BH",
       "",
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5496-7-TPK-43.webp",
+      "",
       "",
       "VEH-019-POST-973"
     ],
@@ -96546,20 +96560,6 @@
     ],
     [
       "Helmond",
-      "22-5011",
-      "DA",
-      "Dienstauto",
-      "H-626-BH",
-      "Bezetting: 5 personen.",
-      "Brandweer",
-      "22 - Brabant-Zuidoost (VRBZO)",
-      "",
-      "",
-      "",
-      "VEH-012-POST-981"
-    ],
-    [
-      "Helmond",
       "22-5012",
       "DA",
       "Dienstauto",
@@ -97072,7 +97072,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5068-92-BPK-4-1789298229344.webp",
       "",
       "VEH-006-POST-986"
     ],
@@ -97534,7 +97534,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5196-S-050-NH-1789298169193.webp",
       "",
       "VEH-006-POST-991"
     ],
@@ -97632,7 +97632,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-4541-BZ-VF-59-1789298207560.webp",
       "",
       "VEH-002-POST-992"
     ],
@@ -97786,7 +97786,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-4741-59-BJL-8-1789298250649.webp",
       "",
       "VEH-002-POST-994"
     ],
@@ -97856,7 +97856,7 @@
       "Brandweer",
       "22 - Brabant-Zuidoost (VRBZO)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/22-5691-64-BPB-7-1789293260585.webp",
       "",
       "VEH-003-POST-995"
     ],
@@ -115715,7 +115715,7 @@
       "05-102",
       "AMBU-HC",
       "Ambulance hoogcomplexe zorg",
-      "J-805-NB",
+      "KGX-70-G",
       "",
       "Ambulance",
       "5 - Twente (VRT)",

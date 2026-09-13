@@ -58707,19 +58707,6 @@
     "last_tenaamstelling_check_date": "2026-09-07",
     "aantal_zitplaatsen": "2"
   },
-  "7-TPK-43": {
-    "expiry": "2027-05-23",
-    "checked": true,
-    "unknown": false,
-    "roepnummers": [
-      "22-5496"
-    ],
-    "last_check_date": "2026-05-24",
-    "last_expired_notification_date": null,
-    "datum_tenaamstelling_dt": "2014-05-23",
-    "last_tenaamstelling_check_date": "2026-09-07",
-    "aantal_zitplaatsen": "5"
-  },
   "ZB-941-D": {
     "expiry": "2027-05-28",
     "checked": true,
@@ -59180,7 +59167,7 @@
     "checked": true,
     "unknown": false,
     "roepnummers": [
-      "22-5011"
+      "22-5496"
     ],
     "last_check_date": "2026-05-24",
     "last_expired_notification_date": null,
@@ -70022,19 +70009,6 @@
     "last_expired_notification_date": null,
     "datum_tenaamstelling_dt": "2021-09-06",
     "last_tenaamstelling_check_date": "2026-09-07",
-    "aantal_zitplaatsen": "4"
-  },
-  "J-805-NB": {
-    "expiry": "2027-09-09",
-    "checked": true,
-    "unknown": false,
-    "roepnummers": [
-      "05-102"
-    ],
-    "last_check_date": "2026-09-10",
-    "last_expired_notification_date": null,
-    "datum_tenaamstelling_dt": "2026-07-20",
-    "last_tenaamstelling_check_date": "2026-09-10",
     "aantal_zitplaatsen": "4"
   },
   "X-943-JH": {
@@ -106972,5 +106946,70 @@
     "datum_tenaamstelling_dt": "2026-07-21",
     "last_tenaamstelling_check_date": "2026-09-13",
     "aantal_zitplaatsen": "7"
+  },
+  "WY-23-ZG": {
+    "expiry": "None",
+    "checked": true,
+    "unknown": true,
+    "roepnummers": [
+      "05-9402"
+    ],
+    "last_check_date": "2026-09-13",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2013-01-16",
+    "last_tenaamstelling_check_date": "2026-09-13",
+    "aantal_zitplaatsen": null
+  },
+  "18-WX-LX": {
+    "expiry": "2026-12-29",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "05-5163"
+    ],
+    "last_check_date": "2026-09-13",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2020-08-04",
+    "last_tenaamstelling_check_date": "2026-09-13",
+    "aantal_zitplaatsen": null
+  },
+  "01-ZFH-9": {
+    "expiry": "2026-11-19",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "22-5002"
+    ],
+    "last_check_date": "2026-09-13",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2012-11-19",
+    "last_tenaamstelling_check_date": "2026-09-13",
+    "aantal_zitplaatsen": "5"
+  },
+  "38-WJ-RK": {
+    "expiry": "None",
+    "checked": true,
+    "unknown": true,
+    "roepnummers": [
+      "22-5389"
+    ],
+    "last_check_date": "2026-09-13",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2012-10-26",
+    "last_tenaamstelling_check_date": "2026-09-13",
+    "aantal_zitplaatsen": null
+  },
+  "KGX-70-G": {
+    "expiry": "2027-04-24",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "05-102"
+    ],
+    "last_check_date": "2026-09-13",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2026-04-24",
+    "last_tenaamstelling_check_date": "2026-09-13",
+    "aantal_zitplaatsen": "4"
   }
 }

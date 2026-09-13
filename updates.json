@@ -8,6 +8,13 @@
         "Regio": "7 - Gelderland-Midden (VGGM)",
         "Description": "07-9043 TST-NB toegevoegd aan Ede Centrum",
         "Time": "13-09-2026 12:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5002 DA toegevoegd aan Eindhoven Centrum",
+        "Time": "13-09-2026 14:00:19"
       }
     ],
     "removed": [
@@ -33,6 +40,104 @@
         "Regio": "7 - Gelderland-Midden (VGGM)",
         "Description": "07-2771: Interne opmerking van 'Nieuw kenteken 2026' naar '' aangepast",
         "Time": "13-09-2026 12:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "5 - Twente (VRT)",
+        "Description": "05-9402: Kenteken van '' naar 'WY-23-ZG' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "5 - Twente (VRT)",
+        "Description": "05-5163: Kenteken van 'GEEN' naar '18-WX-LX' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-2332: Interne opmerking van '' naar 'Brandweer' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-2351: Interne opmerking van '' naar 'Brandweer' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5389: Kenteken van 'GEEN' naar '38-WJ-RK' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5496: Afkorting van 'HOVD-B' naar 'L-COPI' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5496: TypeVoertuig van 'Hoofdofficier van dienst Brandweer' naar 'Leider COPI' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5496: Kenteken van '7-TPK-43' naar 'H-626-BH' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "5 - Twente (VRT)",
+        "Description": "05-102: Kenteken van 'J-805-NB' naar 'KGX-70-G' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5011: Adres van 'Helmond' naar 'Eindhoven Woensel' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "'22-5011' omgenummerd naar '22-5496'",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5011: Afkorting van 'DA' naar 'L-COPI' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5011: TypeVoertuig van 'Dienstauto' naar 'Leider COPI' aangepast",
+        "Time": "13-09-2026 14:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "22 - Brabant-Zuidoost (VRBZO)",
+        "Description": "22-5011: Bijzonderheden van 'Bezetting: 5 personen.' naar '' aangepast",
+        "Time": "13-09-2026 14:00:19"
       }
     ]
   },

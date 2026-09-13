@@ -1003,5 +1003,33 @@
     "nettomaximumvermogen": "213.00",
     "toerental_geluidsniveau": "1650",
     "uitlaatemissieniveau": "EURO VI D"
+  },
+  {
+    "kenteken": "7TPK43",
+    "brandstof_volgnummer": "1",
+    "brandstof_omschrijving": "Diesel",
+    "brandstofverbruik_gecombineerd": "3.70",
+    "co2_uitstoot_gecombineerd": "96",
+    "geluidsniveau_stationair": "71",
+    "emissiecode_omschrijving": "5",
+    "milieuklasse_eg_goedkeuring_licht": "715/2007*195/2013J",
+    "uitstoot_deeltjes_licht": "0.00095",
+    "nettomaximumvermogen": "66.00",
+    "toerental_geluidsniveau": "2540",
+    "uitlaatemissieniveau": "EURO 5 J"
+  },
+  {
+    "kenteken": "J805NB",
+    "brandstof_volgnummer": "1",
+    "brandstof_omschrijving": "Diesel",
+    "brandstofverbruik_gecombineerd": "9.50",
+    "co2_uitstoot_gecombineerd": "249",
+    "geluidsniveau_rijdend": "71",
+    "geluidsniveau_stationair": "81",
+    "emissiecode_omschrijving": "6",
+    "milieuklasse_eg_goedkeuring_zwaar": "595/2009*2018/932D",
+    "nettomaximumvermogen": "140.00",
+    "toerental_geluidsniveau": "2850",
+    "uitlaatemissieniveau": "EURO VI D"
   }
 ]

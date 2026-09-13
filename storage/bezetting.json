@@ -17424,6 +17424,12 @@
     "zitplaatsen": 5
   },
   {
+    "roepnummer": "22-5002",
+    "kenteken": "01-ZFH-9",
+    "bezetting": 5,
+    "zitplaatsen": 5
+  },
+  {
     "roepnummer": "22-5006",
     "kenteken": "46-ZFT-5",
     "bezetting": 5,
@@ -17630,12 +17636,6 @@
   {
     "roepnummer": "22-5010",
     "kenteken": "H-625-BH",
-    "bezetting": 5,
-    "zitplaatsen": 5
-  },
-  {
-    "roepnummer": "22-5011",
-    "kenteken": "H-626-BH",
     "bezetting": 5,
     "zitplaatsen": 5
   },

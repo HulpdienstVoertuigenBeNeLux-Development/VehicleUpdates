@@ -754,6 +754,7 @@
   - J638BR
   - J727LS
   - J757ZD
+  - J805NB
   - J867KZ
   - J896LR
   - J909LR
@@ -793,7 +794,6 @@
   - KB119F
   - KB412J
   - KD919R
-  - KGX70G
   - KGX71G
   - KGX72G
   - KHV81H
