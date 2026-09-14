@@ -208,14 +208,6 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
-    "kenteken": "01BHN8",
-    "merk": "SCANIA",
-    "handelsbenaming": "P370",
-    "aantal_zitplaatsen": "7",
-    "bouwjaar": "2016",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
     "kenteken": "01BJF7",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "ATEGO",
@@ -21420,6 +21412,14 @@
     "merk": "SCANIA",
     "handelsbenaming": "KENBRI-BRONTO F32 RPX",
     "aantal_zitplaatsen": "2",
+    "bouwjaar": "2026",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "BD526V",
+    "merk": "VOLVO",
+    "handelsbenaming": "FM",
+    "aantal_zitplaatsen": "7",
     "bouwjaar": "2026",
     "brandstof_omschrijving": "Diesel"
   },

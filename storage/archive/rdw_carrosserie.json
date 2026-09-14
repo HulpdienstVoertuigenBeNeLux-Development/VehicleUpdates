@@ -464,5 +464,11 @@
   {
     "kenteken": "J805NB",
     "no_data": true
+  },
+  {
+    "kenteken": "01BHN8",
+    "carrosserie_volgnummer": "1",
+    "carrosserietype": "BA",
+    "type_carrosserie_europese_omschrijving": "Vrachtwagen"
   }
 ]

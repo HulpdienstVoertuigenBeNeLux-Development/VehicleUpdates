@@ -14514,19 +14514,6 @@
     "last_tenaamstelling_check_date": "2026-09-13",
     "aantal_zitplaatsen": "8"
   },
-  "01-BHN-8": {
-    "expiry": "2026-10-28",
-    "checked": true,
-    "unknown": false,
-    "roepnummers": [
-      "06-1341"
-    ],
-    "last_check_date": "2026-05-24",
-    "last_expired_notification_date": null,
-    "datum_tenaamstelling_dt": "2016-09-08",
-    "last_tenaamstelling_check_date": "2026-09-13",
-    "aantal_zitplaatsen": "7"
-  },
   "BX-RD-80": {
     "expiry": "2027-04-13",
     "checked": true,
@@ -107087,5 +107074,18 @@
     "last_expired_notification_date": null,
     "datum_tenaamstelling_dt": null,
     "last_tenaamstelling_check_date": "2026-09-13"
+  },
+  "BD-526-V": {
+    "expiry": "2027-09-01",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "06-1341"
+    ],
+    "last_check_date": "2026-09-14",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2026-09-01",
+    "last_tenaamstelling_check_date": "2026-09-14",
+    "aantal_zitplaatsen": "7"
   }
 }
