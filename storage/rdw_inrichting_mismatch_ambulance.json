@@ -1,7 +1,7 @@
 {
   "naam": "ambulance",
   "hvb_count": 1654,
-  "rdw_count": 1355,
+  "rdw_count": 1357,
   "missing_in_rdw": [
     "17BNL2",
     "17SVG2",
@@ -89,7 +89,6 @@
     "GKJ44R",
     "GKJ45R",
     "GKJ46R",
-    "GKN38T",
     "GKS82R",
     "GLN57G",
     "GLN59G",
@@ -819,6 +818,7 @@
     "KXF02V",
     "KXF32V",
     "KXF34V",
+    "KXG83J",
     "KZ004F",
     "L144RV",
     "L361XV",
