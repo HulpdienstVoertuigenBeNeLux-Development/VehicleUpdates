@@ -290,7 +290,7 @@
       "Ambulance",
       "25 - Flevoland (VRFL)",
       "",
-      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/GEEN-PH-DOC-1784396859648.webp",
+      "",
       "",
       "VEH-002-POST-006"
     ],
@@ -240575,20 +240575,6 @@
       "",
       "51.01173782377845, 5.8622438902033505",
       "VEH-039-POST-2609"
-    ],
-    [
-      "",
-      "",
-      "",
-      "",
-      "PH-LLN",
-      "",
-      "Ambulance",
-      "",
-      "",
-      "",
-      "",
-      "VEH-001"
     ]
   ],
   "_cached": true

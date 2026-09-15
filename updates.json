@@ -306,6 +306,41 @@
         "Regio": "25 - Flevoland (VRFL)",
         "Description": "GEEN: Bijzonderheden van 'Reserveluchtvaartuig.' naar 'Lifeliner 2.' aangepast",
         "Time": "15-09-2026 17:00:18"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "",
+        "Description": ": Adres van '' naar 'Heliport Amsterdam' aangepast",
+        "Time": "15-09-2026 18:00:25"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "",
+        "Description": "'' omgenummerd naar '13-991'",
+        "Time": "15-09-2026 18:00:25"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "",
+        "Description": ": Afkorting van '' naar 'MMTL' aangepast",
+        "Time": "15-09-2026 18:00:25"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "",
+        "Description": ": TypeVoertuig van '' naar 'Mobiel medisch team luchtvaartuig' aangepast",
+        "Time": "15-09-2026 18:00:25"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "",
+        "Description": ": Bijzonderheden van '' naar 'Lifeliner 1.' aangepast",
+        "Time": "15-09-2026 18:00:25"
       }
     ]
   },
