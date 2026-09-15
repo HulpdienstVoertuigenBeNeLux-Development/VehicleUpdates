@@ -1104,6 +1104,12 @@
     "zitplaatsen": 7
   },
   {
+    "roepnummer": "02-7302",
+    "kenteken": "8-ZRF-61",
+    "bezetting": 5,
+    "zitplaatsen": 5
+  },
+  {
     "roepnummer": "02-4701",
     "kenteken": "GGF-59-H",
     "bezetting": 5,
@@ -1434,6 +1440,12 @@
     "zitplaatsen": 7
   },
   {
+    "roepnummer": "02-7538",
+    "kenteken": "BS-LV-49",
+    "bezetting": 8,
+    "zitplaatsen": 9
+  },
+  {
     "roepnummer": "02-5733",
     "kenteken": "58-BGN-7",
     "bezetting": 8,
@@ -1530,12 +1542,6 @@
     "zitplaatsen": 5
   },
   {
-    "roepnummer": "02-0208",
-    "kenteken": "8-ZRF-61",
-    "bezetting": 5,
-    "zitplaatsen": 5
-  },
-  {
     "roepnummer": "02-0230",
     "kenteken": "04-BSP-1",
     "bezetting": 7,
@@ -1615,7 +1621,7 @@
   },
   {
     "roepnummer": "02-7338",
-    "kenteken": "BS-VH-53",
+    "kenteken": "BX-GG-16",
     "bezetting": 6,
     "zitplaatsen": 8
   },
@@ -1681,7 +1687,7 @@
   },
   {
     "roepnummer": "02-6404",
-    "kenteken": "8-ZSL-02",
+    "kenteken": "ZF-100-N",
     "bezetting": 5,
     "zitplaatsen": 5
   },
@@ -2028,10 +2034,22 @@
     "zitplaatsen": 7
   },
   {
+    "roepnummer": "02-7201",
+    "kenteken": "8-ZSL-05",
+    "bezetting": 5,
+    "zitplaatsen": 5
+  },
+  {
     "roepnummer": "02-7208",
     "kenteken": "X-266-VX",
     "bezetting": 5,
     "zitplaatsen": 5
+  },
+  {
+    "roepnummer": "02-7238",
+    "kenteken": "BV-JZ-01",
+    "bezetting": 9,
+    "zitplaatsen": 8
   },
   {
     "roepnummer": "02-7007",
@@ -2944,12 +2962,6 @@
     "kenteken": "TT-210-Z",
     "bezetting": 8,
     "zitplaatsen": 9
-  },
-  {
-    "roepnummer": "03-9433",
-    "kenteken": "80-BDT-3",
-    "bezetting": 7,
-    "zitplaatsen": 7
   },
   {
     "roepnummer": "03-9434",
@@ -13627,6 +13639,12 @@
   },
   {
     "roepnummer": "GEEN",
+    "kenteken": "HVX-81-T",
+    "bezetting": 5,
+    "zitplaatsen": 5
+  },
+  {
+    "roepnummer": "GEEN",
     "kenteken": "HXN-96-F",
     "bezetting": 5,
     "zitplaatsen": 5
@@ -19020,6 +19038,12 @@
     "zitplaatsen": 2
   },
   {
+    "roepnummer": "24-2506",
+    "kenteken": "V-11-JKF",
+    "bezetting": 6,
+    "zitplaatsen": 6
+  },
+  {
     "roepnummer": "24-2508",
     "kenteken": "49-BNL-6",
     "bezetting": 2,
@@ -19342,12 +19366,6 @@
     "kenteken": "91-BLS-9",
     "bezetting": 6,
     "zitplaatsen": 6
-  },
-  {
-    "roepnummer": "25-8203",
-    "kenteken": "VV-792-F",
-    "bezetting": 2,
-    "zitplaatsen": 2
   },
   {
     "roepnummer": "25-4113",

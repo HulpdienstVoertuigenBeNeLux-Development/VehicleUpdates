@@ -5,10 +5,10 @@
 ----------------------------------------------------------------------------------------
   Brandweer
 ----------------------------------------------------------------------------------------
-  HulpdienstvoertuigenBenelux : 5709
+  HulpdienstvoertuigenBenelux : 5713
   RDW inrichting dataset      : 2579
-  Missing in RDW              : 3531
-  Extra in RDW                : 401
+  Missing in RDW              : 3534
+  Extra in RDW                : 400
 
   Kentekens in HulpdienstvoertuigenBenelux maar niet in RDW:
   - 0022YK
@@ -892,7 +892,7 @@
   - 8ZRL15
   - 8ZRL16
   - 8ZRL17
-  - 8ZSL02
+  - 8ZSL05
   - 90BKL4
   - 90BLP4
   - 90BPK3
@@ -1566,6 +1566,7 @@
   - HVK36K
   - HVX72T
   - HVX80T
+  - HVX81T
   - HXH96F
   - HXJ53Z
   - HXJ54Z
@@ -1612,6 +1613,7 @@
   - J213BK
   - J214BK
   - J215BK
+  - J264ZN
   - J265ZN
   - J266ZN
   - J267ZN
@@ -2797,6 +2799,7 @@
   - V115KK
   - V115XT
   - V116XT
+  - V11JKF
   - V122TR
   - V12NTL
   - V12PJG
@@ -3200,7 +3203,6 @@
   - VV166X
   - VV167X
   - VV236Z
-  - VV792F
   - VV944P
   - VVB68G
   - VVB69G
@@ -3483,6 +3485,7 @@
   - ZD782J
   - ZD886S
   - ZD887S
+  - ZF100N
   - ZF101N
   - ZF102N
   - ZF254L
@@ -3737,6 +3740,7 @@
   - BPLV41
   - BPLZ59
   - BPNB52
+  - BPNF22
   - BPNJ43
   - BPNZ70
   - BPRB27
@@ -3776,7 +3780,6 @@
   - BSLN39
   - BSLN64
   - BSLP39
-  - BSLV49
   - BSNF93
   - BSNN44
   - BSPH51
@@ -3786,6 +3789,7 @@
   - BSVD26
   - BSVF47
   - BSVF49
+  - BSVH53
   - BSVL06
   - BSZD96
   - BT26ZK
@@ -3817,7 +3821,6 @@
   - BVFR38
   - BVFX62
   - BVGT91
-  - BVJZ01
   - BVPB74
   - BVPB94
   - BVSP04
@@ -3850,7 +3853,6 @@
   - BXDJ16
   - BXDJ21
   - BXFP16
-  - BXGG16
   - BXGR33
   - BXGT25
   - BXGZ19

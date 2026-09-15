@@ -5,10 +5,10 @@
 ----------------------------------------------------------------------------------------
   Ambulance
 ----------------------------------------------------------------------------------------
-  HulpdienstvoertuigenBenelux : 1654
+  HulpdienstvoertuigenBenelux : 1652
   RDW inrichting dataset      : 1357
-  Missing in RDW              : 621
-  Extra in RDW                : 324
+  Missing in RDW              : 618
+  Extra in RDW                : 323
 
   Kentekens in HulpdienstvoertuigenBenelux maar niet in RDW:
   - 17BNL2
@@ -66,11 +66,9 @@
   - G037HB
   - G038HB
   - G087DK
-  - G183JR
   - G273TD
   - G324LF
   - G408VB
-  - G655LR
   - G916DZ
   - G928PT
   - G946DK
@@ -308,7 +306,6 @@
   - NB859K
   - NF420V
   - NF477F
-  - NF922P
   - NF927P
   - NF928P
   - NF935P
@@ -801,7 +798,6 @@
   - KLP34D
   - KR924P
   - KRN01H
-  - KRN38H
   - KRN76G
   - KRN78G
   - KRN80G

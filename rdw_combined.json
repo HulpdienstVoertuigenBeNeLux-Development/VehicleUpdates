@@ -17048,14 +17048,6 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
-    "kenteken": "88BRR1",
-    "merk": "MAN",
-    "handelsbenaming": "TGM",
-    "aantal_zitplaatsen": "2",
-    "bouwjaar": "2021",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
     "kenteken": "88BSF2",
     "merk": "VOLVO",
     "handelsbenaming": "FM",
@@ -17752,7 +17744,7 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
-    "kenteken": "8ZSL02",
+    "kenteken": "8ZSL05",
     "merk": "VOLKSWAGEN",
     "handelsbenaming": "POLO",
     "aantal_zitplaatsen": "5",
@@ -22504,14 +22496,6 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
-    "kenteken": "BPNF22",
-    "merk": "DAF",
-    "handelsbenaming": "AE55CF",
-    "aantal_zitplaatsen": null,
-    "bouwjaar": "2004",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
     "kenteken": "BPPN20",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "904.6 416CDI",
@@ -23064,6 +23048,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "BSLV49",
+    "merk": "MAN",
+    "handelsbenaming": "L79",
+    "aantal_zitplaatsen": "9",
+    "bouwjaar": "2006",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
     "kenteken": "BSLV88",
     "merk": "UNIMOG",
     "handelsbenaming": "435",
@@ -23132,22 +23124,6 @@
     "merk": "VOLVO",
     "handelsbenaming": "FM9 4X4R FAL8.0 RAD-L90",
     "aantal_zitplaatsen": "9",
-    "bouwjaar": "2007",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
-    "kenteken": "BSVH53",
-    "merk": "MAN",
-    "handelsbenaming": "L79",
-    "aantal_zitplaatsen": "8",
-    "bouwjaar": "2007",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
-    "kenteken": "BSVN77",
-    "merk": "MERCEDES-BENZ",
-    "handelsbenaming": "940.20",
-    "aantal_zitplaatsen": "6",
     "bouwjaar": "2007",
     "brandstof_omschrijving": "Diesel"
   },
@@ -23899,6 +23875,14 @@
     "kenteken": "BVJV29",
     "merk": "VOLVO",
     "handelsbenaming": "FL L4X2R",
+    "aantal_zitplaatsen": "8",
+    "bouwjaar": "2008",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "BVJZ01",
+    "merk": "MAN",
+    "handelsbenaming": "TGM 15.240 4X2 BL",
     "aantal_zitplaatsen": "8",
     "bouwjaar": "2008",
     "brandstof_omschrijving": "Diesel"
@@ -24844,6 +24828,14 @@
     "merk": "VOLVO",
     "handelsbenaming": "FE 62R",
     "aantal_zitplaatsen": "2",
+    "bouwjaar": "2009",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "BXGG16",
+    "merk": "MAN",
+    "handelsbenaming": "TGM 15.240 4X2 BL",
+    "aantal_zitplaatsen": "8",
     "bouwjaar": "2009",
     "brandstof_omschrijving": "Diesel"
   },
@@ -27576,14 +27568,6 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
-    "kenteken": "G183JR",
-    "merk": "VOLVO",
-    "handelsbenaming": "XC40",
-    "aantal_zitplaatsen": "5",
-    "bouwjaar": "2019",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
     "kenteken": "G198SP",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
@@ -27796,14 +27780,6 @@
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
     "aantal_zitplaatsen": "4",
-    "bouwjaar": "2019",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
-    "kenteken": "G655LR",
-    "merk": "VOLKSWAGEN",
-    "handelsbenaming": "TOURAN",
-    "aantal_zitplaatsen": "5",
     "bouwjaar": "2019",
     "brandstof_omschrijving": "Diesel"
   },
@@ -33064,6 +33040,14 @@
     "brandstof_omschrijving": "Elektriciteit"
   },
   {
+    "kenteken": "HVX81T",
+    "merk": "KIA",
+    "handelsbenaming": "EV3",
+    "aantal_zitplaatsen": "5",
+    "bouwjaar": "2025",
+    "brandstof_omschrijving": "Elektriciteit"
+  },
+  {
     "kenteken": "HXH96F",
     "merk": "OPEL",
     "handelsbenaming": "CORSA-E",
@@ -33721,6 +33705,14 @@
   },
   {
     "kenteken": "J215BK",
+    "merk": "VOLKSWAGEN",
+    "handelsbenaming": "POLO",
+    "aantal_zitplaatsen": "5",
+    "bouwjaar": "2020",
+    "brandstof_omschrijving": "Benzine"
+  },
+  {
+    "kenteken": "J264ZN",
     "merk": "VOLKSWAGEN",
     "handelsbenaming": "POLO",
     "aantal_zitplaatsen": "5",
@@ -40408,6 +40400,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "KRN38H",
+    "merk": "MERCEDES-BENZ",
+    "handelsbenaming": "SPRINTER",
+    "aantal_zitplaatsen": "4",
+    "bouwjaar": "2026",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
     "kenteken": "KS208J",
     "merk": "VOLKSWAGEN",
     "handelsbenaming": "KOMBI",
@@ -42411,14 +42411,6 @@
     "kenteken": "NF477F",
     "merk": "VOLKSWAGEN",
     "handelsbenaming": "TOURAN",
-    "aantal_zitplaatsen": "5",
-    "bouwjaar": "2017",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
-    "kenteken": "NF922P",
-    "merk": "MERCEDES-BENZ",
-    "handelsbenaming": "GLC 220 D 4MATIC",
     "aantal_zitplaatsen": "5",
     "bouwjaar": "2017",
     "brandstof_omschrijving": "Diesel"
@@ -50024,6 +50016,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "V11JKF",
+    "merk": "FORD",
+    "handelsbenaming": "TRANSIT CUSTOM",
+    "aantal_zitplaatsen": "6",
+    "bouwjaar": "2024",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
     "kenteken": "V122TR",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "VITO BUSINESSVAN",
@@ -53480,14 +53480,6 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
-    "kenteken": "VJG86B",
-    "merk": "MERCEDES-BENZ",
-    "handelsbenaming": "VITO",
-    "aantal_zitplaatsen": "2",
-    "bouwjaar": "2021",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
     "kenteken": "VJG87B",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
@@ -53569,14 +53561,6 @@
   },
   {
     "kenteken": "VJR09L",
-    "merk": "MERCEDES-BENZ",
-    "handelsbenaming": "VITO",
-    "aantal_zitplaatsen": "3",
-    "bouwjaar": "2021",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
-    "kenteken": "VJR10L",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "VITO",
     "aantal_zitplaatsen": "3",
@@ -55069,14 +55053,6 @@
     "handelsbenaming": "1222 AF-I",
     "aantal_zitplaatsen": null,
     "bouwjaar": "1993",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
-    "kenteken": "VV792F",
-    "merk": "MERCEDES-BENZ",
-    "handelsbenaming": "CITAN",
-    "aantal_zitplaatsen": "2",
-    "bouwjaar": "2016",
     "brandstof_omschrijving": "Diesel"
   },
   {
@@ -59308,6 +59284,14 @@
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
     "aantal_zitplaatsen": "4",
+    "bouwjaar": "2019",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "ZF100N",
+    "merk": "VOLKSWAGEN",
+    "handelsbenaming": "POLO",
+    "aantal_zitplaatsen": "5",
     "bouwjaar": "2019",
     "brandstof_omschrijving": "Diesel"
   },

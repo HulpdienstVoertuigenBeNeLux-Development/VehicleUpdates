@@ -416,5 +416,67 @@
     "carrosserie_voertuig_nummer_code_volgnummer": "1",
     "carrosseriecode": "31",
     "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
+  },
+  {
+    "kenteken": "88BRR1",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "14",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Voor vervoer voertuigen"
+  },
+  {
+    "kenteken": "8ZSL02",
+    "no_data": true
+  },
+  {
+    "kenteken": "BPNF22",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "31",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
+  },
+  {
+    "kenteken": "BSVH53",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "31",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
+  },
+  {
+    "kenteken": "BSVN77",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "24",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Takelwagen"
+  },
+  {
+    "kenteken": "G183JR",
+    "no_data": true
+  },
+  {
+    "kenteken": "G655LR",
+    "no_data": true
+  },
+  {
+    "kenteken": "NF922P",
+    "no_data": true
+  },
+  {
+    "kenteken": "VJG86B",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "03",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Gesloten opbouw"
+  },
+  {
+    "kenteken": "VJR10L",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "03",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Gesloten opbouw"
+  },
+  {
+    "kenteken": "VV792F",
+    "no_data": true
   }
 ]
