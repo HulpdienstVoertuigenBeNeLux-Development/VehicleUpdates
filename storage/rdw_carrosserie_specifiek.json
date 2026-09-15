@@ -22657,6 +22657,13 @@
     "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
   },
   {
+    "kenteken": "BZPP32",
+    "carrosserie_volgnummer": "1",
+    "carrosserie_voertuig_nummer_code_volgnummer": "1",
+    "carrosseriecode": "31",
+    "carrosserie_voertuig_nummer_europese_omschrijving": "Brandweerwagen"
+  },
+  {
     "kenteken": "BZPR44",
     "carrosserie_volgnummer": "1",
     "carrosserie_voertuig_nummer_code_volgnummer": "1",
@@ -23094,6 +23101,10 @@
   },
   {
     "kenteken": "G109PB",
+    "no_data": true
+  },
+  {
+    "kenteken": "G119TX",
     "no_data": true
   },
   {
@@ -27605,6 +27616,10 @@
     "no_data": true
   },
   {
+    "kenteken": "JT183G",
+    "no_data": true
+  },
+  {
     "kenteken": "JT184G",
     "no_data": true
   },
@@ -27873,10 +27888,6 @@
     "no_data": true
   },
   {
-    "kenteken": "JTT52D",
-    "no_data": true
-  },
-  {
     "kenteken": "JTT53D",
     "no_data": true
   },
@@ -27890,6 +27901,10 @@
   },
   {
     "kenteken": "JTT56D",
+    "no_data": true
+  },
+  {
+    "kenteken": "JTT57D",
     "no_data": true
   },
   {
@@ -31707,6 +31722,10 @@
     "no_data": true
   },
   {
+    "kenteken": "R311TD",
+    "no_data": true
+  },
+  {
     "kenteken": "R317JG",
     "no_data": true
   },
@@ -32728,6 +32747,10 @@
   },
   {
     "kenteken": "S936VH",
+    "no_data": true
+  },
+  {
+    "kenteken": "S966FN",
     "no_data": true
   },
   {

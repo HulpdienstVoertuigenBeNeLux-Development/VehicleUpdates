@@ -10501,6 +10501,34 @@
       "VEH-002-POST-122"
     ],
     [
+      "02-75 Douwe Egberts Joure, Slachtedyk 28a",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Brandweer",
+      "2 - Fryslân (VRF)",
+      "",
+      "",
+      "52.97403889187537, 5.791355168447707",
+      "POST-2679"
+    ],
+    [
+      "Bedrijfsbrarndweer Douwe Egberts Joure",
+      "02-7532",
+      "TS-BB",
+      "Tankautospuit bedrijfsbrandweer",
+      "BZ-PP-32",
+      "Bezetting: 8 personen.",
+      "Brandweer",
+      "2 - Fryslân (VRF)",
+      "",
+      "",
+      "",
+      "VEH-001-POST-2679"
+    ],
+    [
       "02-XX Vliegveld Drachten, De Knobben 100",
       "",
       "",
@@ -45435,7 +45463,7 @@
       "10-5005",
       "DB",
       "Dienstbus",
-      "JTT-52-D",
+      "JTT-57-D",
       "Bezetting: 9 personen.",
       "Brandweer",
       "10 - Noord-Holland-Noord (VRNHN)",
@@ -46356,6 +46384,20 @@
     ],
     [
       "Abbekerk",
+      "10-5406",
+      "DB",
+      "Dienstbus",
+      "JT-183-G",
+      "Bezetting: 8 personen.",
+      "Brandweer",
+      "10 - Noord-Holland-Noord (VRNHN)",
+      "",
+      "",
+      "",
+      "VEH-001-POST-488"
+    ],
+    [
+      "Abbekerk",
       "10-5435",
       "TS",
       "Tankautospuit",
@@ -46366,7 +46408,7 @@
       "",
       "",
       "",
-      "VEH-001-POST-488"
+      "VEH-002-POST-488"
     ],
     [
       "10-54 Andijk, Hoekweg 46",
@@ -53635,6 +53677,34 @@
       "VEH-004-POST-553"
     ],
     [
+      "Schiphop BROEF",
+      "TR20",
+      "DB",
+      "Dienstbus",
+      "R-311-TD",
+      "t.b.v. OTO.",
+      "Brandweer",
+      "12 - Kennemerland (VRK)",
+      "",
+      "",
+      "",
+      "VEH-005-POST-553"
+    ],
+    [
+      "Schiphop BROEF",
+      "TR70",
+      "DB",
+      "Dienstbus",
+      "S-966-FN",
+      "t.b.v. OTO.",
+      "Brandweer",
+      "12 - Kennemerland (VRK)",
+      "",
+      "",
+      "",
+      "VEH-006-POST-553"
+    ],
+    [
       "AMAS Peloton Kennermeland, Anchoragelaan 1",
       "",
       "",
@@ -57504,7 +57574,7 @@
       "VK-TDV",
       "Verkenningsvoertuig team digitale verkenning",
       "V-51-PFD",
-      "",
+      "Tevens inzetbaar in Flevoland",
       "Brandweer",
       "14 - Gooi en Vechtstreek (VRGV)",
       "",
@@ -58407,6 +58477,20 @@
       "",
       "",
       "VEH-051-POST-588"
+    ],
+    [
+      "Hilversum",
+      "GEEN",
+      "MFT-VER",
+      "Multifunctioneel voertuig terreinvaardig verreiker",
+      "GEEN",
+      "Heftruck.",
+      "Brandweer",
+      "14 - Gooi en Vechtstreek (VRGV)",
+      "",
+      "",
+      "",
+      "VEH-052-POST-588"
     ],
     [
       "14-23 Laren, Groene Gerritsweg 2",
@@ -94529,6 +94613,34 @@
       "VEH-002-POST-956"
     ],
     [
+      "IFFS Verhuur Oss, IJzerweg 67",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Brandweer",
+      "21 - Brabant-Noord (VRBN)",
+      "",
+      "",
+      "51.73891131293137, 5.556094305908118",
+      "POST-2680"
+    ],
+    [
+      "IFFS Verhuur Oss",
+      "00-1234",
+      "TS",
+      "Tankautospuit",
+      "14-BRB-8",
+      "Bezetting: 7 personen.",
+      "Brandweer",
+      "21 - Brabant-Noord (VRBN)",
+      "",
+      "",
+      "",
+      "VEH-001-POST-2680"
+    ],
+    [
       "Bedrijfsbrandweer Friesland Comapina DMV Veghel, Ncb-Laan 80",
       "",
       "",
@@ -111977,7 +112089,7 @@
       "01-706",
       "ARTS-HP",
       "Huisarts voertuig",
-      "ONBEKEND",
+      "G-119-TX",
       "",
       "Ambulance",
       "1 - Groningen (VRG)",

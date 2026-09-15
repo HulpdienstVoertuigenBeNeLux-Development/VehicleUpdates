@@ -8239,6 +8239,28 @@
     "Interne opmerking": ""
   },
   {
+    "Adres": "02-75 Douwe Egberts Joure, Slachtedyk 28a",
+    "Roepnummer": "",
+    "Afkorting": "",
+    "TypeVoertuig": "",
+    "Kenteken": "",
+    "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "2 - Fryslân (VRF)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Bedrijfsbrarndweer Douwe Egberts Joure",
+    "Roepnummer": "02-7532",
+    "Afkorting": "TS-BB",
+    "TypeVoertuig": "Tankautospuit bedrijfsbrandweer",
+    "Kenteken": "BZ-PP-32",
+    "Bijzonderheden": "Bezetting: 8 personen.",
+    "Hulpdienst": "Brandweer",
+    "Regio": "2 - Fryslân (VRF)",
+    "Interne opmerking": ""
+  },
+  {
     "Adres": "02-XX Vliegveld Drachten, De Knobben 100",
     "Roepnummer": "",
     "Afkorting": "",
@@ -35688,7 +35710,7 @@
     "Roepnummer": "10-5005",
     "Afkorting": "DB",
     "TypeVoertuig": "Dienstbus",
-    "Kenteken": "JTT-52-D",
+    "Kenteken": "JTT-57-D",
     "Bijzonderheden": "Bezetting: 9 personen.",
     "Hulpdienst": "Brandweer",
     "Regio": "10 - Noord-Holland-Noord (VRNHN)",
@@ -36405,6 +36427,17 @@
     "TypeVoertuig": "",
     "Kenteken": "",
     "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "10 - Noord-Holland-Noord (VRNHN)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Abbekerk",
+    "Roepnummer": "10-5406",
+    "Afkorting": "DB",
+    "TypeVoertuig": "Dienstbus",
+    "Kenteken": "JT-183-G",
+    "Bijzonderheden": "Bezetting: 8 personen.",
     "Hulpdienst": "Brandweer",
     "Regio": "10 - Noord-Holland-Noord (VRNHN)",
     "Interne opmerking": ""
@@ -42130,6 +42163,28 @@
     "Interne opmerking": ""
   },
   {
+    "Adres": "Schiphop BROEF",
+    "Roepnummer": "TR20",
+    "Afkorting": "DB",
+    "TypeVoertuig": "Dienstbus",
+    "Kenteken": "R-311-TD",
+    "Bijzonderheden": "t.b.v. OTO.",
+    "Hulpdienst": "Brandweer",
+    "Regio": "12 - Kennemerland (VRK)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Schiphop BROEF",
+    "Roepnummer": "TR70",
+    "Afkorting": "DB",
+    "TypeVoertuig": "Dienstbus",
+    "Kenteken": "S-966-FN",
+    "Bijzonderheden": "t.b.v. OTO.",
+    "Hulpdienst": "Brandweer",
+    "Regio": "12 - Kennemerland (VRK)",
+    "Interne opmerking": ""
+  },
+  {
     "Adres": "AMAS Peloton Kennermeland, Anchoragelaan 1",
     "Roepnummer": "",
     "Afkorting": "",
@@ -45171,7 +45226,7 @@
     "Afkorting": "VK-TDV",
     "TypeVoertuig": "Verkenningsvoertuig team digitale verkenning",
     "Kenteken": "V-51-PFD",
-    "Bijzonderheden": "",
+    "Bijzonderheden": "Tevens inzetbaar in Flevoland",
     "Hulpdienst": "Brandweer",
     "Regio": "14 - Gooi en Vechtstreek (VRGV)",
     "Interne opmerking": ""
@@ -45876,6 +45931,17 @@
     "TypeVoertuig": "Logistiek aanhanger",
     "Kenteken": "GEEN",
     "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "14 - Gooi en Vechtstreek (VRGV)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Hilversum",
+    "Roepnummer": "GEEN",
+    "Afkorting": "MFT-VER",
+    "TypeVoertuig": "Multifunctioneel voertuig terreinvaardig verreiker",
+    "Kenteken": "GEEN",
+    "Bijzonderheden": "Heftruck.",
     "Hulpdienst": "Brandweer",
     "Regio": "14 - Gooi en Vechtstreek (VRGV)",
     "Interne opmerking": ""
@@ -74261,6 +74327,28 @@
     "Interne opmerking": ""
   },
   {
+    "Adres": "IFFS Verhuur Oss, IJzerweg 67",
+    "Roepnummer": "",
+    "Afkorting": "",
+    "TypeVoertuig": "",
+    "Kenteken": "",
+    "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "21 - Brabant-Noord (VRBN)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "IFFS Verhuur Oss",
+    "Roepnummer": "00-1234",
+    "Afkorting": "TS",
+    "TypeVoertuig": "Tankautospuit",
+    "Kenteken": "14-BRB-8",
+    "Bijzonderheden": "Bezetting: 7 personen.",
+    "Hulpdienst": "Brandweer",
+    "Regio": "21 - Brabant-Noord (VRBN)",
+    "Interne opmerking": ""
+  },
+  {
     "Adres": "Bedrijfsbrandweer Friesland Comapina DMV Veghel, Ncb-Laan 80",
     "Roepnummer": "",
     "Afkorting": "",
@@ -87971,7 +88059,7 @@
     "Roepnummer": "01-706",
     "Afkorting": "ARTS-HP",
     "TypeVoertuig": "Huisarts voertuig",
-    "Kenteken": "ONBEKEND",
+    "Kenteken": "G-119-TX",
     "Bijzonderheden": "",
     "Hulpdienst": "Ambulance",
     "Regio": "1 - Groningen (VRG)",

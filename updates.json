@@ -57,6 +57,41 @@
         "Regio": "Antwerpen",
         "Description": "H571 LW 32 toegevoegd aan Westerlo",
         "Time": "15-09-2026 14:01:32"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "2 - Fryslân (VRF)",
+        "Description": "02-7532 TS-BB toegevoegd aan Bedrijfsbrarndweer Douwe Egberts Joure",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "10 - Noord-Holland-Noord (VRNHN)",
+        "Description": "10-5406 DB toegevoegd aan Abbekerk",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "12 - Kennemerland (VRK)",
+        "Description": "TR20 DB toegevoegd aan Schiphop BROEF",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "12 - Kennemerland (VRK)",
+        "Description": "TR70 DB toegevoegd aan Schiphop BROEF",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "21 - Brabant-Noord (VRBN)",
+        "Description": "00-1234 TS toegevoegd aan IFFS Verhuur Oss",
+        "Time": "15-09-2026 15:00:23"
       }
     ],
     "removed": [
@@ -180,6 +215,48 @@
         "Regio": "18 - Zuid-Holland-Zuid (VRZHZ)",
         "Description": "'ONBEKEND' omgenummerd naar 'KENBRI HW-594'",
         "Time": "15-09-2026 14:00:20"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "10 - Noord-Holland-Noord (VRNHN)",
+        "Description": "10-5005: Kenteken van 'JTT-52-D' naar 'JTT-57-D' aangepast",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "14 - Gooi en Vechtstreek (VRGV)",
+        "Description": "14-7008: Bijzonderheden van '' naar 'Tevens inzetbaar in Flevoland' aangepast",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "14 - Gooi en Vechtstreek (VRGV)",
+        "Description": "GEEN: Afkorting van 'LOA' naar 'MFT-VER' aangepast",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "14 - Gooi en Vechtstreek (VRGV)",
+        "Description": "GEEN: TypeVoertuig van 'Logistiek aanhanger' naar 'Multifunctioneel voertuig terreinvaardig verreiker' aangepast",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "14 - Gooi en Vechtstreek (VRGV)",
+        "Description": "GEEN: Bijzonderheden van '' naar 'Heftruck.' aangepast",
+        "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "1 - Groningen (VRG)",
+        "Description": "01-706: Kenteken van 'ONBEKEND' naar 'G-119-TX' aangepast",
+        "Time": "15-09-2026 15:00:23"
       }
     ]
   },

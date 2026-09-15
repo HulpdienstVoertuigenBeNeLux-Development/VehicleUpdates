@@ -2118,6 +2118,12 @@
     "zitplaatsen": 9
   },
   {
+    "roepnummer": "02-7532",
+    "kenteken": "BZ-PP-32",
+    "bezetting": 8,
+    "zitplaatsen": 8
+  },
+  {
     "roepnummer": "Personeel / Materiaalvoertuig",
     "kenteken": "25-FV-HJ",
     "bezetting": 4,
@@ -8959,7 +8965,7 @@
   },
   {
     "roepnummer": "10-5005",
-    "kenteken": "JTT-52-D",
+    "kenteken": "JTT-57-D",
     "bezetting": 9,
     "zitplaatsen": 9
   },
@@ -9160,6 +9166,12 @@
     "kenteken": "49-BKH-1",
     "bezetting": 7,
     "zitplaatsen": 7
+  },
+  {
+    "roepnummer": "10-5406",
+    "kenteken": "JT-183-G",
+    "bezetting": 8,
+    "zitplaatsen": 8
   },
   {
     "roepnummer": "10-5435",
@@ -17236,6 +17248,12 @@
     "kenteken": "08-BDR-1",
     "bezetting": 7,
     "zitplaatsen": 7
+  },
+  {
+    "roepnummer": "00-1234",
+    "kenteken": "14-BRB-8",
+    "bezetting": 7,
+    "zitplaatsen": null
   },
   {
     "roepnummer": "GEEN",

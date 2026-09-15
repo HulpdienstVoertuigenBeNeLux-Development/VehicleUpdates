@@ -26984,6 +26984,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "BZPP32",
+    "merk": "RENAULT",
+    "handelsbenaming": "MIDLUM 300.15 BRANDWEER F.P.T.",
+    "aantal_zitplaatsen": "8",
+    "bouwjaar": "2011",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
     "kenteken": "BZPR44",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "ATEGO 1529 F",
@@ -27548,6 +27556,14 @@
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
     "aantal_zitplaatsen": "4",
+    "bouwjaar": "2019",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "G119TX",
+    "merk": "MERCEDES-BENZ",
+    "handelsbenaming": "V-KLASSE",
+    "aantal_zitplaatsen": "3",
     "bouwjaar": "2019",
     "brandstof_omschrijving": "Diesel"
   },
@@ -36568,6 +36584,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "JT183G",
+    "merk": "VOLKSWAGEN",
+    "handelsbenaming": "KOMBI",
+    "aantal_zitplaatsen": "8",
+    "bouwjaar": "2016",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
     "kenteken": "JT184G",
     "merk": "VOLKSWAGEN",
     "handelsbenaming": "KOMBI",
@@ -37104,14 +37128,6 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
-    "kenteken": "JTT52D",
-    "merk": "MERCEDES-BENZ",
-    "handelsbenaming": "SPRINTER",
-    "aantal_zitplaatsen": "9",
-    "bouwjaar": "2026",
-    "brandstof_omschrijving": "Diesel"
-  },
-  {
     "kenteken": "JTT53D",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
@@ -37137,6 +37153,14 @@
   },
   {
     "kenteken": "JTT56D",
+    "merk": "MERCEDES-BENZ",
+    "handelsbenaming": "SPRINTER",
+    "aantal_zitplaatsen": "9",
+    "bouwjaar": "2026",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "JTT57D",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
     "aantal_zitplaatsen": "9",
@@ -44712,6 +44736,14 @@
     "brandstof_omschrijving": "Elektriciteit"
   },
   {
+    "kenteken": "R311TD",
+    "merk": "MERCEDES-BENZ",
+    "handelsbenaming": "EVITO TOURER",
+    "aantal_zitplaatsen": "8",
+    "bouwjaar": "2023",
+    "brandstof_omschrijving": "Elektriciteit"
+  },
+  {
     "kenteken": "R317JG",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "SPRINTER",
@@ -46758,6 +46790,14 @@
     "aantal_zitplaatsen": "4",
     "bouwjaar": "2023",
     "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "S966FN",
+    "merk": "MERCEDES-BENZ",
+    "handelsbenaming": "EVITO TOURER",
+    "aantal_zitplaatsen": "8",
+    "bouwjaar": "2023",
+    "brandstof_omschrijving": "Elektriciteit"
   },
   {
     "kenteken": "S993NR",
