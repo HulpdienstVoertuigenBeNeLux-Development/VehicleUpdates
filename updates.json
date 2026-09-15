@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-16",
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  {
     "date": "2026-09-15",
     "added": [
       {
@@ -7267,27 +7273,6 @@
         "Regio": "9",
         "Description": "09-8301: Bijzonderheden van '' naar 'Rijd met het fictieve nummer 09-4822 als Gaspakteam voertuig (GP)' aangepast",
         "Time": "16-08-2026 23:00:14"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-15",
-    "added": [],
-    "removed": [],
-    "changed": [
-      {
-        "Land": "BE",
-        "Hulpdienst": "Ambulance",
-        "Regio": "Antwerpen",
-        "Description": "BORGERHOUT: Adres van 'BA ANTW [Borgerhout] AMBUCE, Borgerhout' naar 'Borgerhout' aangepast",
-        "Time": "15-08-2026 00:00:16"
-      },
-      {
-        "Land": "BE",
-        "Hulpdienst": "Ambulance",
-        "Regio": "Antwerpen",
-        "Description": "HOBOKEN: Adres van 'BA ANTW [Hoboken] AMBUCE, Hoboken' naar 'Hoboken' aangepast",
-        "Time": "15-08-2026 00:00:16"
       }
     ]
   }
