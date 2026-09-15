@@ -103,12 +103,12 @@
       "17-992",
       "MMTL",
       "Mobiel medisch team luchtvaartuig",
-      "PH-HIP",
+      "PH-DOC",
       "Lifeliner 2.",
       "Ambulance",
       "17 - Rotterdam-Rijnmond (VRR)",
       "",
-      "",
+      "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleImages/main/vehicles/GEEN-PH-DOC-1784396859648.webp",
       "",
       "VEH-003-POST-002"
     ],
@@ -285,7 +285,7 @@
       "GEEN",
       "MMTL",
       "Mobiel medisch team luchtvaartuig",
-      "PH-DOC",
+      "PH-HIP",
       "Reserveluchtvaartuig.",
       "Ambulance",
       "25 - Flevoland (VRFL)",
@@ -402,7 +402,7 @@
       "Brandweer",
       "1 - Groningen (VRG)",
       "",
-      "",
+      "https://images.hulpdienstvoertuigenbenelux.nl/vehicles/images/01-1003-ZB-105-K-1789478746296.webp",
       "",
       "VEH-002-POST-009"
     ],
@@ -240575,6 +240575,20 @@
       "",
       "51.01173782377845, 5.8622438902033505",
       "VEH-039-POST-2609"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "PH-LLN",
+      "",
+      "Ambulance",
+      "",
+      "",
+      "",
+      "",
+      "VEH-001"
     ]
   ],
   "_cached": true

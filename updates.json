@@ -92,6 +92,20 @@
         "Regio": "21 - Brabant-Noord (VRBN)",
         "Description": "00-1234 TS toegevoegd aan IFFS Verhuur Oss",
         "Time": "15-09-2026 15:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "25 - Flevoland (VRFL)",
+        "Description": "GEEN MMTL toegevoegd aan Lelystad Airport",
+        "Time": "15-09-2026 17:00:18"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "",
+        "Description": "  toegevoegd aan ",
+        "Time": "15-09-2026 17:00:18"
       }
     ],
     "removed": [
@@ -264,6 +278,34 @@
         "Regio": "2 - Fryslân (VRF)",
         "Description": "02-7532: Adres van 'Bedrijfsbrarndweer Douwe Egberts Joure' naar 'Bedrijfsbrandweer Douwe Egberts Joure' aangepast",
         "Time": "15-09-2026 16:00:18"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "17 - Rotterdam-Rijnmond (VRR)",
+        "Description": "17-992: Kenteken van 'PH-HIP' naar 'PH-DOC' aangepast",
+        "Time": "15-09-2026 17:00:18"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "25 - Flevoland (VRFL)",
+        "Description": "GEEN: Adres van 'Lelystad Airport' naar 'Rotterdam Airport' aangepast",
+        "Time": "15-09-2026 17:00:18"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "25 - Flevoland (VRFL)",
+        "Description": "'GEEN' omgenummerd naar '17-992'",
+        "Time": "15-09-2026 17:00:18"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Ambulance",
+        "Regio": "25 - Flevoland (VRFL)",
+        "Description": "GEEN: Bijzonderheden van 'Reserveluchtvaartuig.' naar 'Lifeliner 2.' aangepast",
+        "Time": "15-09-2026 17:00:18"
       }
     ]
   },

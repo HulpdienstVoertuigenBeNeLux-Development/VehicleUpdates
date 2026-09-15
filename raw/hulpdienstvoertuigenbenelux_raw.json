@@ -70,7 +70,7 @@
     "Roepnummer": "17-992",
     "Afkorting": "MMTL",
     "TypeVoertuig": "Mobiel medisch team luchtvaartuig",
-    "Kenteken": "PH-HIP",
+    "Kenteken": "PH-DOC",
     "Bijzonderheden": "Lifeliner 2.",
     "Hulpdienst": "Ambulance",
     "Regio": "17 - Rotterdam-Rijnmond (VRR)",
@@ -213,7 +213,7 @@
     "Roepnummer": "GEEN",
     "Afkorting": "MMTL",
     "TypeVoertuig": "Mobiel medisch team luchtvaartuig",
-    "Kenteken": "PH-DOC",
+    "Kenteken": "PH-HIP",
     "Bijzonderheden": "Reserveluchtvaartuig.",
     "Hulpdienst": "Ambulance",
     "Regio": "25 - Flevoland (VRFL)",
@@ -189010,6 +189010,17 @@
     "Bijzonderheden": "Bloed, plasma",
     "Hulpdienst": "Sanquin",
     "Regio": "24 - Zuid-Limburg (VRZL)",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "",
+    "Roepnummer": "",
+    "Afkorting": "",
+    "TypeVoertuig": "",
+    "Kenteken": "PH-LLN",
+    "Bijzonderheden": "",
+    "Hulpdienst": "Ambulance",
+    "Regio": "",
     "Interne opmerking": ""
   }
 ]
