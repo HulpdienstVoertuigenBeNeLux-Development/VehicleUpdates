@@ -82,10 +82,10 @@
   Region: BE
 ================================================================================
 
-  Records checked : 6,872  (of 10,130 total)
+  Records checked : 6,775  (of 10,033 total)
 
 --------------------------------------------------------------------------------
-  Duplicate Roepnummer  --  540 value(s) affected
+  Duplicate Roepnummer  --  534 value(s) affected
 --------------------------------------------------------------------------------
 
   >> '1'  (3x)
@@ -117,35 +117,35 @@
       Kenteken    : 
 
   >> '102000'  (3x)
-      Adres       : ZIEKENHUISNETWERK ANTWERPEN (ZNA), Antwerpen
+      Adres       : Deurne
       Hulpdienst  : Ambulance
       Roepnummer  : 102000
       Kenteken    : 
-      Adres       : GZA- ZIEKENHUIZEN, Antwerpen
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : 102000
       Kenteken    : 
-      Adres       : A.Z. MONICA, Deurne
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : 102000
       Kenteken    : 
 
   >> '103000'  (2x)
-      Adres       : ZIEKENHUISNETWERK ANTWERPEN (ZNA), Antwerpen
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : 103000
       Kenteken    : 
-      Adres       : GZA- ZIEKENHUIZEN, Wilrijk
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : 103000
       Kenteken    : 
 
   >> '104000'  (2x)
-      Adres       : ZIEKENHUISNETWERK ANTWERPEN (ZNA), Merksem
+      Adres       : Merksem
       Hulpdienst  : Ambulance
       Roepnummer  : 104000
       Kenteken    : 
-      Adres       : ALGEMEEN ZIEKENHUIS KLINA V.Z.W., Brasschaat
+      Adres       : Brasschaat
       Hulpdienst  : Ambulance
       Roepnummer  : 104000
       Kenteken    : 
@@ -192,32 +192,22 @@
       Roepnummer  : 2
       Kenteken    : 
 
-  >> '201000'  (2x)
-      Adres       : UNIVERSITAIR ZIEKENHUIS GENT, Gent
-      Hulpdienst  : Ambulance
-      Roepnummer  : 201000
-      Kenteken    : 
-      Adres       : ALGEMEEN ZIEKENHUIS MARIA MIDDELARES, Gent
-      Hulpdienst  : Ambulance
-      Roepnummer  : 201000
-      Kenteken    : 
-
   >> '202000'  (2x)
-      Adres       : ALGEMEEN ZIEKENHUIS ST. LUCAS, Gent
+      Adres       : Gent
       Hulpdienst  : Ambulance
       Roepnummer  : 202000
       Kenteken    : 
-      Adres       : ALGEMEEN ZIEKENHUIS JAN PALFIJN, Gent
+      Adres       : Gent
       Hulpdienst  : Ambulance
       Roepnummer  : 202000
       Kenteken    : 
 
   >> '205000'  (2x)
-      Adres       : ONZE LIEVE VROUWZIEKENHUIS, Aalst
+      Adres       : Aalst
       Hulpdienst  : Ambulance
       Roepnummer  : 205000
       Kenteken    : 
-      Adres       : A.S.Z. - AUTONOME VERZORGINGSINSTELLING, Aalst
+      Adres       : Aalst
       Hulpdienst  : Ambulance
       Roepnummer  : 205000
       Kenteken    : 
@@ -304,22 +294,12 @@
       Roepnummer  : 3
       Kenteken    : 
 
-  >> '304000'  (2x)
-      Adres       : A.Z. ST. JAN BRUGGE - OOSTENDE, Oostende
-      Hulpdienst  : Ambulance
-      Roepnummer  : 304000
-      Kenteken    : 
-      Adres       : ALGEMEEN ZIEKENHUIS DAMIAAN, Oostende
-      Hulpdienst  : Ambulance
-      Roepnummer  : 304000
-      Kenteken    : 
-
   >> '308000'  (2x)
-      Adres       : ALGEMEEN ZIEKENHUIS DELTA, Roeselare
+      Adres       : Izegem
       Hulpdienst  : Ambulance
       Roepnummer  : 308000
       Kenteken    : 
-      Adres       : ST. JOZEFSKLINIEK, Izegem
+      Adres       : Roeselare
       Hulpdienst  : Ambulance
       Roepnummer  : 308000
       Kenteken    : 
@@ -406,20 +386,6 @@
       Roepnummer  : 5
       Kenteken    : 
 
-  >> '528000'  (3x)
-      Adres       : KLINIEK ST. JAN - CLINIQUE ST. JEAN, Brussel
-      Hulpdienst  : Ambulance
-      Roepnummer  : 528000
-      Kenteken    : 
-      Adres       : HOPITAUX IRIS-SUD - IRIS-ZUID ZIEKENHUIZEN, Brussel
-      Hulpdienst  : Ambulance
-      Roepnummer  : 528000
-      Kenteken    : 
-      Adres       : CHIREC - DELTA, Brussel
-      Hulpdienst  : Ambulance
-      Roepnummer  : 528000
-      Kenteken    : 
-
   >> '6'  (4x)
       Adres       : Westmalle
       Hulpdienst  : Brandweer
@@ -439,31 +405,31 @@
       Kenteken    : 
 
   >> '601000'  (2x)
-      Adres       : C.H.U. ET PSYCHIATRIE DE MONS - BORINAGE, Mons
+      Adres       : Mons
       Hulpdienst  : Ambulance
       Roepnummer  : 601000
       Kenteken    : 
-      Adres       : C.H.R. DE MONS - HAINAUT, Mons
+      Adres       : Mons
       Hulpdienst  : Ambulance
       Roepnummer  : 601000
       Kenteken    : 
 
   >> '603000'  (2x)
-      Adres       : CENTRE HOSPITALIER UNIVERSITAIRE TIVOLI, La Louviere
+      Adres       : La Louviere
       Hulpdienst  : Ambulance
       Roepnummer  : 603000
       Kenteken    : 
-      Adres       : CENTRES HOSPITALIERS DE JOLIMONT, Haine-Saint-Paul
+      Adres       : La Louviere
       Hulpdienst  : Ambulance
       Roepnummer  : 603000
       Kenteken    : 
 
   >> '604000'  (2x)
-      Adres       : C.H. EPICURA HORNU - BAUDOUR, Hornu
+      Adres       : Hornu
       Hulpdienst  : Ambulance
       Roepnummer  : 604000
       Kenteken    : 
-      Adres       : C.H.R. DE MONS - HAINAUT, Boussu
+      Adres       : Boussu
       Hulpdienst  : Ambulance
       Roepnummer  : 604000
       Kenteken    : 
@@ -505,21 +471,21 @@
       Kenteken    : 
 
   >> '803000'  (2x)
-      Adres       : C.H. BOIS DE L'ABBAYE, Seraing
+      Adres       : Seraing
       Hulpdienst  : Ambulance
       Roepnummer  : 803000
       Kenteken    : 
-      Adres       : CENTRE HOSPITALIER CHRETIEN, Montegnee
+      Adres       : Montergnee
       Hulpdienst  : Ambulance
       Roepnummer  : 803000
       Kenteken    : 
 
   >> '804000'  (2x)
-      Adres       : C.H. DU BOIS DE L'ABBAYE, Warmeme
+      Adres       : Waremme
       Hulpdienst  : Ambulance
       Roepnummer  : 804000
       Kenteken    : 
-      Adres       : CENTRE HOSPITALIER CHRETIEN, Warmeme
+      Adres       : Waremme
       Hulpdienst  : Ambulance
       Roepnummer  : 804000
       Kenteken    : 
@@ -1316,22 +1282,32 @@
       Roepnummer  : A62
       Kenteken    : 
 
+  >> 'AND 1'  (2x)
+      Adres       : Anderlecht
+      Hulpdienst  : Ambulance
+      Roepnummer  : AND 1
+      Kenteken    : 
+      Adres       : Anderlecht
+      Hulpdienst  : Ambulance
+      Roepnummer  : AND 1
+      Kenteken    : 
+
   >> 'ANTW CADIX'  (2x)
-      Adres       : HA U ANTW CADIX, Antwerpen
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : ANTW CADIX
       Kenteken    : 
-      Adres       : HA UR ANTW Cadix, Antwerpen
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : ANTW CADIX
       Kenteken    : 
 
   >> 'ANTW VINCENTIUS'  (2x)
-      Adres       : HA U ANTW St Vincentius, Antwerpen
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : ANTW VINCENTIUS
       Kenteken    : 
-      Adres       : HA U ANTW St Vincentius, Antwerpen
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : ANTW VINCENTIUS
       Kenteken    : 
@@ -1341,11 +1317,11 @@
       Hulpdienst  : Ambulance
       Roepnummer  : ANTW ZUID
       Kenteken    : 
-      Adres       : HA UR ANTW Middelheim, Antwerpen
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : ANTW ZUID
       Kenteken    : 
-      Adres       : HA U ANTW St Augustinus, Antwerpen
+      Adres       : Antwerpen
       Hulpdienst  : Ambulance
       Roepnummer  : ANTW ZUID
       Kenteken    : 
@@ -1993,31 +1969,21 @@
       Kenteken    : 
 
   >> 'BEVEREN 1'  (2x)
-      Adres       : FO HVP BEVE [Melsele] Waasland, Beveren
+      Adres       : Beveren
       Hulpdienst  : Ambulance
       Roepnummer  : BEVEREN 1
       Kenteken    : 
-      Adres       : FO HVP BEVE Waasland, Beveren
+      Adres       : Beveren
       Hulpdienst  : Ambulance
       Roepnummer  : BEVEREN 1
-      Kenteken    : 
-
-  >> 'BORNEM'  (2x)
-      Adres       : HA UR BORN AZ Rivierenland, Bornem
-      Hulpdienst  : Ambulance
-      Roepnummer  : BORNEM
-      Kenteken    : 
-      Adres       : HA UR BORN AZ Rivierenland, Bornem
-      Hulpdienst  : Ambulance
-      Roepnummer  : BORNEM
       Kenteken    : 
 
   >> 'BRASSCHAAT'  (2x)
-      Adres       : HA UR BRAS [De Mick] AZ Klina, Brasschaat
+      Adres       : Brasschaat
       Hulpdienst  : Ambulance
       Roepnummer  : BRASSCHAAT
       Kenteken    : 
-      Adres       : HA UR BRAS AZ Klina, Brasschaat
+      Adres       : Brasschaat
       Hulpdienst  : Ambulance
       Roepnummer  : BRASSCHAAT
       Kenteken    : 
@@ -2997,11 +2963,11 @@
       Kenteken    : 
 
   >> 'CHARLEROI 1'  (2x)
-      Adres       : FH PDS CHAR [Marcinelle] Hainaut Est, Charleroi
+      Adres       : Charleroi
       Hulpdienst  : Ambulance
       Roepnummer  : CHARLEROI 1
       Kenteken    : 
-      Adres       : BH CHAR ISPPC Mambourg, Charleroi
+      Adres       : Charleroi
       Hulpdienst  : Ambulance
       Roepnummer  : CHARLEROI 1
       Kenteken    : 
@@ -3153,11 +3119,11 @@
       Kenteken    : 
 
   >> 'DEURNE'  (2x)
-      Adres       : HA U ANTW AZ Monica, Deurne
+      Adres       : Deurne
       Hulpdienst  : Ambulance
       Roepnummer  : DEURNE
       Kenteken    : 
-      Adres       : HA U ANTW AZ Monica, Deurne
+      Adres       : Deurne
       Hulpdienst  : Ambulance
       Roepnummer  : DEURNE
       Kenteken    : 
@@ -3744,28 +3710,24 @@
       Roepnummer  : G11
       Kenteken    : 
 
-  >> 'GENT 1'  (2x)
-      Adres       : FO HVP GENT [Centrum] Centrum, Gent
+  >> 'GEEL 1'  (2x)
+      Adres       : Geel
       Hulpdienst  : Ambulance
-      Roepnummer  : GENT 1
+      Roepnummer  : GEEL 1
       Kenteken    : 
-      Adres       : HO UR GENT UZ, Gent
+      Adres       : Geel
       Hulpdienst  : Ambulance
-      Roepnummer  : GENT 1
+      Roepnummer  : GEEL 1
       Kenteken    : 
 
-  >> 'GENT 2'  (3x)
-      Adres       : FO HVP GENT [Centrum] Centrum, Gent
+  >> 'GENT 4'  (2x)
+      Adres       : Gent
       Hulpdienst  : Ambulance
-      Roepnummer  : GENT 2
+      Roepnummer  : GENT 4
       Kenteken    : 
-      Adres       : HO UR GENT AZ St Lucas, Gent
+      Adres       : Gent
       Hulpdienst  : Ambulance
-      Roepnummer  : GENT 2
-      Kenteken    : 
-      Adres       : HO UR GENT AZ Jan Palfijn, Gent
-      Hulpdienst  : Ambulance
-      Roepnummer  : GENT 2
+      Roepnummer  : GENT 4
       Kenteken    : 
 
   >> 'H1'  (2x)
@@ -3788,14 +3750,34 @@
       Roepnummer  : HA1
       Kenteken    : 
 
+  >> 'HASSELT 1'  (2x)
+      Adres       : Hasselt
+      Hulpdienst  : Ambulance
+      Roepnummer  : HASSELT 1
+      Kenteken    : 
+      Adres       : Hasselt
+      Hulpdienst  : Ambulance
+      Roepnummer  : HASSELT 1
+      Kenteken    : 
+
   >> 'HASSELT 2'  (2x)
-      Adres       : FL HVP HASS Zuidwest, Hasselt
+      Adres       : Hasselt
       Hulpdienst  : Ambulance
       Roepnummer  : HASSELT 2
       Kenteken    : 
-      Adres       : HL UR HASS Virga Jesse PIT, Hasselt
+      Adres       : Hasselt
       Hulpdienst  : Ambulance
       Roepnummer  : HASSELT 2
+      Kenteken    : 
+
+  >> 'IEPER'  (2x)
+      Adres       : Ieper
+      Hulpdienst  : Ambulance
+      Roepnummer  : IEPER
+      Kenteken    : 
+      Adres       : Ieper
+      Hulpdienst  : Ambulance
+      Roepnummer  : IEPER
       Kenteken    : 
 
   >> 'J11'  (2x)
@@ -4328,32 +4310,12 @@
       Roepnummer  : L906
       Kenteken    : 
 
-  >> 'LEUVEN 3'  (2x)
-      Adres       : FV HVP LEUV Oost, Leuven
-      Hulpdienst  : Ambulance
-      Roepnummer  : LEUVEN 3
-      Kenteken    : 
-      Adres       : HV UR LEUV RZ HEILIG HART, Leuven
-      Hulpdienst  : Ambulance
-      Roepnummer  : LEUVEN 3
-      Kenteken    : 
-
-  >> 'LEUVEN 4'  (2x)
-      Adres       : FV HVP LEUV Oost, Leuven
-      Hulpdienst  : Ambulance
-      Roepnummer  : LEUVEN 4
-      Kenteken    : 
-      Adres       : HV UR LEUV RZ HEILIG HART PIT, Leuven
-      Hulpdienst  : Ambulance
-      Roepnummer  : LEUVEN 4
-      Kenteken    : 
-
   >> 'LIER'  (2x)
-      Adres       : HA UR LIER Heilig Hart, Lier
+      Adres       : Lier
       Hulpdienst  : Ambulance
       Roepnummer  : LIER
       Kenteken    : 
-      Adres       : HA UR LIER Heilig Hart, Lier
+      Adres       : Lier
       Hulpdienst  : Ambulance
       Roepnummer  : LIER
       Kenteken    : 
@@ -4706,32 +4668,36 @@
       Roepnummer  : M82
       Kenteken    : 
 
-  >> 'MERELBEKE'  (2x)
-      Adres       : BO MERE WZC Lemberge, Merelbeke
+  >> 'MERELBEKE'  (3x)
+      Adres       : Mekelbeke
       Hulpdienst  : Ambulance
       Roepnummer  : MERELBEKE
       Kenteken    : 
-      Adres       : HO UR GENT AZ Maria Middelares, Merelbeke
+      Adres       : Gent
+      Hulpdienst  : Ambulance
+      Roepnummer  : MERELBEKE
+      Kenteken    : 
+      Adres       : Merelbeke
       Hulpdienst  : Ambulance
       Roepnummer  : MERELBEKE
       Kenteken    : 
 
-  >> 'MOL'  (2x)
-      Adres       : FA HVP MOL_ Kempen, Mol
+  >> 'METTET'  (2x)
+      Adres       : Mettet
       Hulpdienst  : Ambulance
-      Roepnummer  : MOL
+      Roepnummer  : METTET
       Kenteken    : 
-      Adres       : HA UR MOL Heilig Hart, Mol
+      Adres       : Mettet
       Hulpdienst  : Ambulance
-      Roepnummer  : MOL
+      Roepnummer  : METTET
       Kenteken    : 
 
   >> 'MONS 1'  (2x)
-      Adres       : FH PDS MONS [Cuesmes] Hainaut Centre, Mons
+      Adres       : Mons
       Hulpdienst  : Ambulance
       Roepnummer  : MONS 1
       Kenteken    : 
-      Adres       : HH UR MONS CHU Ambroise Paré | PIT, Mons
+      Adres       : Mons
       Hulpdienst  : Ambulance
       Roepnummer  : MONS 1
       Kenteken    : 
@@ -4789,23 +4755,13 @@
       Kenteken    : 
 
   >> 'NAMUR 1'  (2x)
-      Adres       : FN PDS NAMU NAGE, Namur
+      Adres       : Namur
       Hulpdienst  : Ambulance
       Roepnummer  : NAMUR 1
       Kenteken    : 
-      Adres       : HN UR NAMU CHR | PIT, Namur
+      Adres       : Namur
       Hulpdienst  : Ambulance
       Roepnummer  : NAMUR 1
-      Kenteken    : 
-
-  >> 'NAMUR 4'  (2x)
-      Adres       : BN NAMU Croix Rouge, Namur
-      Hulpdienst  : Ambulance
-      Roepnummer  : NAMUR 4
-      Kenteken    : 
-      Adres       : FN PDS NAMU NAGE, Namur
-      Hulpdienst  : Ambulance
-      Roepnummer  : NAMUR 4
       Kenteken    : 
 
   >> 'O2'  (2x)
@@ -6237,11 +6193,11 @@
       Kenteken    : 
 
   >> 'SINT NIKLAAS 1'  (2x)
-      Adres       : FO HVP SNIK Waasland(ZW SINT NIKLAAS 1), Sint Niklaas
+      Adres       : Sint Niklaas
       Hulpdienst  : Ambulance
       Roepnummer  : SINT NIKLAAS 1
       Kenteken    : 
-      Adres       : HO UR SNIK AZ Nikolaas, Sint Niklaas
+      Adres       : Sint Niklaas
       Hulpdienst  : Ambulance
       Roepnummer  : SINT NIKLAAS 1
       Kenteken    : 
@@ -6992,14 +6948,14 @@
       Roepnummer  : TC11
       Kenteken    : 
 
-  >> 'TIH LIBRAMONT'  (2x)
-      Adres       : HX UR BAST Vivalia St Therese, Libramont
+  >> 'TIELT'  (2x)
+      Adres       : Tielt
       Hulpdienst  : Ambulance
-      Roepnummer  : TIH LIBRAMONT
+      Roepnummer  : TIELT
       Kenteken    : 
-      Adres       : HX UR MARC Vivalia Princesse Paola, Libramont
+      Adres       : Tielt
       Hulpdienst  : Ambulance
-      Roepnummer  : TIH LIBRAMONT
+      Roepnummer  : TIELT
       Kenteken    : 
 
   >> 'TW1'  (13x)
@@ -7353,31 +7309,31 @@
       Kenteken    : 
 
   >> 'VEURNE'  (2x)
-      Adres       : FW HVP Veur Westhoek, Veurne
+      Adres       : Veurne
       Hulpdienst  : Ambulance
       Roepnummer  : VEURNE
       Kenteken    : 
-      Adres       : HW UR VEUR AZ West, Veurne
+      Adres       : Veurne
       Hulpdienst  : Ambulance
       Roepnummer  : VEURNE
       Kenteken    : 
 
   >> 'VILVOORDE 1'  (2x)
-      Adres       : FV HVP VILV West, Vilvoorde
+      Adres       : Vilvoorde
       Hulpdienst  : Ambulance
       Roepnummer  : VILVOORDE 1
       Kenteken    : 
-      Adres       : HV UR VILV AZ JAN PORTAELS PIT, Vilvoorde
+      Adres       : Vilvoorde
       Hulpdienst  : Ambulance
       Roepnummer  : VILVOORDE 1
       Kenteken    : 
 
   >> 'VIRTON 1'  (2x)
-      Adres       : FX PDS VIRT Luxembourg, Virton
+      Adres       : Virton
       Hulpdienst  : Ambulance
       Roepnummer  : VIRTON 1
       Kenteken    : 
-      Adres       : FX PDS VIRT Luxembourg | PIT, Virton
+      Adres       : Virton
       Hulpdienst  : Ambulance
       Roepnummer  : VIRTON 1
       Kenteken    : 
@@ -7400,16 +7356,6 @@
       Adres       : La Louvière
       Hulpdienst  : Brandweer
       Roepnummer  : VO5
-      Kenteken    : 
-
-  >> 'VUB 1'  (2x)
-      Adres       : HB UR BRUX UZ, Brussel
-      Hulpdienst  : Ambulance
-      Roepnummer  : VUB 1
-      Kenteken    : 
-      Adres       : HB UR BRUX UZ | PIT, Brussel
-      Hulpdienst  : Ambulance
-      Roepnummer  : VUB 1
       Kenteken    : 
 
   >> 'W1'  (2x)
@@ -7440,16 +7386,6 @@
       Adres       : Waasmunster
       Hulpdienst  : Brandweer
       Roepnummer  : W8
-      Kenteken    : 
-
-  >> 'WAREGEM'  (2x)
-      Adres       : SPRL CJP AMBULANCES DU CENTRE, Waregem
-      Hulpdienst  : Ambulance
-      Roepnummer  : WAREGEM
-      Kenteken    : 
-      Adres       : HW UR WARE OLV Van Lourdes, Waregem
-      Hulpdienst  : Ambulance
-      Roepnummer  : WAREGEM
       Kenteken    : 
 
 --------------------------------------------------------------------------------
