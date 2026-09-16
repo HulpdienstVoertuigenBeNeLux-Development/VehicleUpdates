@@ -35910,19 +35910,6 @@
     "last_tenaamstelling_check_date": "2026-09-14",
     "aantal_zitplaatsen": "9"
   },
-  "19-LZF-1": {
-    "expiry": "2027-08-06",
-    "checked": true,
-    "unknown": false,
-    "roepnummers": [
-      "14-1403"
-    ],
-    "last_check_date": "2026-08-07",
-    "last_expired_notification_date": null,
-    "datum_tenaamstelling_dt": "2025-09-19",
-    "last_tenaamstelling_check_date": "2026-09-11",
-    "aantal_zitplaatsen": "5"
-  },
   "39-BXT-6": {
     "expiry": "2027-06-23",
     "checked": true,
@@ -107138,5 +107125,83 @@
     "datum_tenaamstelling_dt": "2019-12-20",
     "last_tenaamstelling_check_date": "2026-09-15",
     "aantal_zitplaatsen": "3"
+  },
+  "V-95-NSH": {
+    "expiry": "2029-01-28",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "14-1421"
+    ],
+    "last_check_date": "2026-09-16",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2026-01-28",
+    "last_tenaamstelling_check_date": "2026-09-16",
+    "aantal_zitplaatsen": "5"
+  },
+  "BB-372-N": {
+    "expiry": "2027-07-23",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "GEEN"
+    ],
+    "last_check_date": "2026-09-16",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2025-07-23",
+    "last_tenaamstelling_check_date": "2026-09-16",
+    "aantal_zitplaatsen": "2"
+  },
+  "10-BZT-6": {
+    "expiry": "2026-12-18",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "GEEN"
+    ],
+    "last_check_date": "2026-09-16",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2025-06-25",
+    "last_tenaamstelling_check_date": "2026-09-16",
+    "aantal_zitplaatsen": "6"
+  },
+  "51-BZT-9": {
+    "expiry": "2026-12-19",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "GEEN"
+    ],
+    "last_check_date": "2026-09-16",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2025-02-17",
+    "last_tenaamstelling_check_date": "2026-09-16",
+    "aantal_zitplaatsen": "2"
+  },
+  "BB-058-N": {
+    "expiry": "2027-08-05",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "GEEN"
+    ],
+    "last_check_date": "2026-09-16",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2025-08-26",
+    "last_tenaamstelling_check_date": "2026-09-16",
+    "aantal_zitplaatsen": "2"
+  },
+  "71-BZN-7": {
+    "expiry": "2026-11-18",
+    "checked": true,
+    "unknown": false,
+    "roepnummers": [
+      "GEEN"
+    ],
+    "last_check_date": "2026-09-16",
+    "last_expired_notification_date": null,
+    "datum_tenaamstelling_dt": "2024-11-18",
+    "last_tenaamstelling_check_date": "2026-09-16",
+    "aantal_zitplaatsen": "6"
   }
 }

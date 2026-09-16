@@ -1792,6 +1792,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "10BZT6",
+    "merk": "MERCEDES-BENZ",
+    "handelsbenaming": "ATEGO",
+    "aantal_zitplaatsen": "6",
+    "bouwjaar": "2024",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
     "kenteken": "10RVPP",
     "merk": "PEUGEOT",
     "handelsbenaming": "BOXER 350LH 2.8HDI-M1",
@@ -3446,14 +3454,6 @@
     "aantal_zitplaatsen": "2",
     "bouwjaar": "2024",
     "brandstof_omschrijving": "Diesel"
-  },
-  {
-    "kenteken": "19LZF1",
-    "merk": "VOLKSWAGEN",
-    "handelsbenaming": "POLO",
-    "aantal_zitplaatsen": "5",
-    "bouwjaar": "2010",
-    "brandstof_omschrijving": "Benzine"
   },
   {
     "kenteken": "19PBX1",
@@ -10024,6 +10024,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "51BZT9",
+    "merk": "VOLVO",
+    "handelsbenaming": "FM",
+    "aantal_zitplaatsen": "2",
+    "bouwjaar": "2024",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
     "kenteken": "51WTTV",
     "merk": "IFOR WILLIAMS",
     "handelsbenaming": "TA",
@@ -13724,6 +13732,14 @@
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "ATEGO",
     "aantal_zitplaatsen": "7",
+    "bouwjaar": "2024",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "71BZN7",
+    "merk": "MERCEDES-BENZ",
+    "handelsbenaming": "ATEGO",
+    "aantal_zitplaatsen": "6",
     "bouwjaar": "2024",
     "brandstof_omschrijving": "Diesel"
   },
@@ -19848,6 +19864,14 @@
     "brandstof_omschrijving": "Diesel"
   },
   {
+    "kenteken": "BB058N",
+    "merk": "FUSO",
+    "handelsbenaming": "ECANTER",
+    "aantal_zitplaatsen": "2",
+    "bouwjaar": "2025",
+    "brandstof_omschrijving": "Elektriciteit"
+  },
+  {
     "kenteken": "BB063B",
     "merk": "MERCEDES-BENZ",
     "handelsbenaming": "KENBRI - ROSENBAUER AT",
@@ -20236,6 +20260,14 @@
     "merk": "VOLVO",
     "handelsbenaming": "FE",
     "aantal_zitplaatsen": "7",
+    "bouwjaar": "2025",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "BB372N",
+    "merk": "DAF",
+    "handelsbenaming": "XF 480 FA",
+    "aantal_zitplaatsen": "2",
     "bouwjaar": "2025",
     "brandstof_omschrijving": "Diesel"
   },
@@ -52189,6 +52221,14 @@
     "handelsbenaming": "SPRINTER",
     "aantal_zitplaatsen": "6",
     "bouwjaar": "2024",
+    "brandstof_omschrijving": "Diesel"
+  },
+  {
+    "kenteken": "V95NSH",
+    "merk": "FORD",
+    "handelsbenaming": "RANGER",
+    "aantal_zitplaatsen": "5",
+    "bouwjaar": "2026",
     "brandstof_omschrijving": "Diesel"
   },
   {

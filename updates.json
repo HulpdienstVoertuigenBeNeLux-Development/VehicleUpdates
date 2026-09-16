@@ -15,10 +15,82 @@
         "Regio": "Oost-Vlaanderen",
         "Description": "419 044 BMC toegevoegd aan Gent",
         "Time": "16-09-2026 11:00:23"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "14 - Gooi en Vechtstreek (VRGV)",
+        "Description": "14-1421 VK-GS toegevoegd aan Muiden",
+        "Time": "16-09-2026 12:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Bergingsbedrijf",
+        "Regio": "7 - Gelderland-Midden (VGGM)",
+        "Description": "GEEN IM Berger toegevoegd aan Duiven",
+        "Time": "16-09-2026 12:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Bergingsbedrijf",
+        "Regio": "8 - Gelderland-Zuid (VRGZ)",
+        "Description": "GEEN IM Berger toegevoegd aan Tiel",
+        "Time": "16-09-2026 12:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Bergingsbedrijf",
+        "Regio": "16 - Hollands Midden (VRHM)",
+        "Description": "GEEN IM Berger toegevoegd aan Leiden",
+        "Time": "16-09-2026 12:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Bergingsbedrijf",
+        "Regio": "17 - Rotterdam-Rijnmond (VRR)",
+        "Description": "GEEN IM Berger toegevoegd aan Rotterdam",
+        "Time": "16-09-2026 12:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "Bergingsbedrijf",
+        "Regio": "17 - Rotterdam-Rijnmond (VRR)",
+        "Description": "GEEN IM Berger toegevoegd aan Rotterdam",
+        "Time": "16-09-2026 12:00:19"
+      },
+      {
+        "Land": "BE",
+        "Hulpdienst": "Brandweer",
+        "Regio": "Oost-Vlaanderen",
+        "Description": "419 060 MTA toegevoegd aan Gent",
+        "Time": "16-09-2026 12:00:49"
       }
     ],
-    "removed": [],
-    "changed": []
+    "removed": [
+      {
+        "Land": "NL",
+        "Hulpdienst": "Brandweer",
+        "Regio": "14 - Gooi en Vechtstreek (VRGV)",
+        "Description": "14-1403 DA verwijderd van Muiden",
+        "Time": "16-09-2026 12:00:19"
+      },
+      {
+        "Land": "NL",
+        "Hulpdienst": "",
+        "Regio": "",
+        "Description": "ONBEKEND VK-TDV verwijderd van Muiderberg",
+        "Time": "16-09-2026 12:00:19"
+      }
+    ],
+    "changed": [
+      {
+        "Land": "BE",
+        "Hulpdienst": "Brandweer",
+        "Regio": "Oost-Vlaanderen",
+        "Description": "419 044: Bijzonderheden van '' naar 'Beladen met 419 060' aangepast",
+        "Time": "16-09-2026 12:00:49"
+      }
+    ]
   },
   {
     "date": "2026-09-15",

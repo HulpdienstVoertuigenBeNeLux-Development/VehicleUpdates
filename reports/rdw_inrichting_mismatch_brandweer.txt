@@ -169,7 +169,6 @@
   - 19BNN4
   - 19BPD7
   - 19BZD3
-  - 19LZF1
   - 19PBX1
   - 19WDSN
   - 19WSBT
@@ -2982,6 +2981,7 @@
   - V949PR
   - V949VV
   - V951PR
+  - V95NSH
   - V95NTT
   - V976PF
   - V989RD

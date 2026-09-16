@@ -1208,5 +1208,18 @@
     "emissie_co2_gecombineerd_wltp": "285",
     "brandstof_verbruik_gecombineerd_wltp": "10.800",
     "uitlaatemissieniveau": "EURO VI E"
+  },
+  {
+    "kenteken": "19LZF1",
+    "brandstof_volgnummer": "1",
+    "brandstof_omschrijving": "Benzine",
+    "brandstofverbruik_gecombineerd": "5.90",
+    "co2_uitstoot_gecombineerd": "139",
+    "geluidsniveau_stationair": "81",
+    "emissiecode_omschrijving": "5",
+    "milieuklasse_eg_goedkeuring_licht": "715/2007*692/2008A",
+    "nettomaximumvermogen": "63.00",
+    "toerental_geluidsniveau": "3750",
+    "uitlaatemissieniveau": "EURO 5 A"
   }
 ]
