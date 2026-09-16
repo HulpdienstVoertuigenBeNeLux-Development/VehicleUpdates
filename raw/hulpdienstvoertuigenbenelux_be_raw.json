@@ -24245,6 +24245,17 @@
   },
   {
     "Adres": "Gent",
+    "Roepnummer": "419 044",
+    "Afkorting": "BMC",
+    "TypeVoertuig": "Bijzonde Materialen Container",
+    "Kenteken": "",
+    "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "Oost-Vlaanderen",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Gent",
     "Roepnummer": "",
     "Afkorting": "LOC",
     "TypeVoertuig": "Logistieke Container",
@@ -24314,6 +24325,17 @@
     "Roepnummer": "",
     "Afkorting": "RBA",
     "TypeVoertuig": "Reddings Boot Aanhanger",
+    "Kenteken": "",
+    "Bijzonderheden": "",
+    "Hulpdienst": "Brandweer",
+    "Regio": "Oost-Vlaanderen",
+    "Interne opmerking": ""
+  },
+  {
+    "Adres": "Gent",
+    "Roepnummer": "",
+    "Afkorting": "MTA",
+    "TypeVoertuig": "Monitor Aanhanger",
     "Kenteken": "",
     "Bijzonderheden": "",
     "Hulpdienst": "Brandweer",

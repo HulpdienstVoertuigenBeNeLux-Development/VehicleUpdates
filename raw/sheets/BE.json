@@ -30872,9 +30872,9 @@
     ],
     [
       "Gent",
-      "",
-      "LOC",
-      "Logistieke Container",
+      "419 044",
+      "BMC",
+      "Bijzonde Materialen Container",
       "",
       "",
       "Brandweer",
@@ -30887,8 +30887,8 @@
     [
       "Gent",
       "",
-      "LBC",
-      "Laadbak Container (met kraan)",
+      "LOC",
+      "Logistieke Container",
       "",
       "",
       "Brandweer",
@@ -30915,6 +30915,20 @@
     [
       "Gent",
       "",
+      "LBC",
+      "Laadbak Container (met kraan)",
+      "",
+      "",
+      "Brandweer",
+      "Oost-Vlaanderen",
+      "",
+      "",
+      "",
+      "VEH-064-POST-127"
+    ],
+    [
+      "Gent",
+      "",
       "IGS-CMIC",
       "IGS -CMIC / milieucontainer",
       "",
@@ -30924,7 +30938,7 @@
       "",
       "",
       "",
-      "VEH-064-POST-127"
+      "VEH-065-POST-127"
     ],
     [
       "Gent",
@@ -30938,7 +30952,7 @@
       "",
       "",
       "",
-      "VEH-065-POST-127"
+      "VEH-066-POST-127"
     ],
     [
       "Gent",
@@ -30952,7 +30966,7 @@
       "",
       "",
       "",
-      "VEH-066-POST-127"
+      "VEH-067-POST-127"
     ],
     [
       "Gent",
@@ -30966,7 +30980,21 @@
       "",
       "",
       "",
-      "VEH-067-POST-127"
+      "VEH-068-POST-127"
+    ],
+    [
+      "Gent",
+      "",
+      "MTA",
+      "Monitor Aanhanger",
+      "",
+      "",
+      "Brandweer",
+      "Oost-Vlaanderen",
+      "",
+      "",
+      "",
+      "VEH-069-POST-127"
     ],
     [
       "Gent",
@@ -30980,7 +31008,7 @@
       "",
       "",
       "",
-      "VEH-068-POST-127"
+      "VEH-070-POST-127"
     ],
     [
       "Gent",
@@ -30994,7 +31022,7 @@
       "",
       "",
       "",
-      "VEH-069-POST-127"
+      "VEH-071-POST-127"
     ],
     [
       "Gent",
@@ -31008,7 +31036,7 @@
       "",
       "",
       "",
-      "VEH-070-POST-127"
+      "VEH-072-POST-127"
     ],
     [
       "Gent",
@@ -31022,7 +31050,7 @@
       "",
       "",
       "",
-      "VEH-071-POST-127"
+      "VEH-073-POST-127"
     ],
     [
       "Lochristi - Koning-Boudewijnlaan 7",
@@ -103989,7 +104017,7 @@
       "Henegouwen",
       "",
       "",
-      "",
+      "50.51245520388323, 3.600275867224244",
       "VEH-002-POST-951"
     ],
     [
