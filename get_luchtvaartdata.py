@@ -5,8 +5,16 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-# Standaard sjabloon voor de Canadese Kustwachtvliegtuigen met exact de 7 gevraagde velden
+# Standaard NH-90 registraties van de Koninklijke Marine / Luchtmacht
+NH90_REGISTRATIES = [
+    "N-088", "N-102", "N-110", "N-164", "N-175", "N-195", "N-227", "N-228",
+    "N-233", "N-234", "N-258", "N-277", "N-316", "N-317", "N-318", "N-319",
+    "N-324", "N-325", "N-326", "N-327"
+]
+
+# Standaard sjabloon voor alle niet-ILT toestellen (Kustwacht + NH-90 militaire helikopters)
 DEFAULT_CUSTOM_AIRCRAFT = {
+    # Canadese Kustwacht toestellen
     "C-FCGE": {
         "registration": "C-FCGE",
         "manufacturer": "DE HAVILLAND CANADA",
@@ -26,6 +34,18 @@ DEFAULT_CUSTOM_AIRCRAFT = {
         "hex_code": ""
     }
 }
+
+# Voeg de 20 NH-90 toestellen toe aan het standaard custom sjabloon
+for nh_reg in NH90_REGISTRATIES:
+    DEFAULT_CUSTOM_AIRCRAFT[nh_reg] = {
+        "registration": nh_reg,
+        "manufacturer": "NHIndustries",
+        "model": "NH90 NFH",
+        "airw_expiry": "",
+        "built": "",
+        "mtom": "11000",
+        "hex_code": ""
+    }
 
 
 def haal_nieuwste_ilt_ods_url():
@@ -81,7 +101,7 @@ def opschonen_alle_kolomnamen(df):
 def laad_of_maak_custom_aircraft_data(storage_dir):
     """
     Laadt storage/custom_aircraft.json.
-    Als het bestand niet bestaat, maakt het een standaard sjabloon aan voor de Kustwacht.
+    Als het bestand niet bestaat, maakt het een standaard sjabloon aan inclusief NH-90.
     """
     custom_path = os.path.join(storage_dir, 'custom_aircraft.json')
 
@@ -94,7 +114,12 @@ def laad_of_maak_custom_aircraft_data(storage_dir):
     try:
         with open(custom_path, 'r', encoding='utf-8') as f:
             print(f"   Custom data geladen uit '{custom_path}'.")
-            return json.load(f)
+            data = json.load(f)
+            # Zorg ervoor dat eventuele ontbrekende NH90-sleutels alsnog aanwezig zijn
+            for reg, record in DEFAULT_CUSTOM_AIRCRAFT.items():
+                if reg not in data:
+                    data[reg] = record
+            return data
     except Exception as e:
         print(f"   [Waarschuwing] Kon custom_aircraft.json niet lezen ({e}). Gebruik standaardwaarden.")
         return DEFAULT_CUSTOM_AIRCRAFT
@@ -176,7 +201,7 @@ def ilt_exporteren_alle_kolommen():
 def verwerk_hulpdienst_luchtvaartuigen(ilt_data, storage_dir, headers):
     """
     Haalt hulpdienst-kentekens op en slaat ALLEEN de 7 gespecificeerde velden op.
-    Gebruikt 'storage/custom_aircraft.json' voor niet-ILT toestellen (Canada).
+    Gebruikt 'storage/custom_aircraft.json' voor niet-ILT toestellen (Canada / NH-90).
     """
     print("6. Hulpdienst kentekens ophalen en 7 velden selecteren...")
     hulpdienst_url = "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleUpdates/refs/heads/master/raw/hulpdienstvoertuigenbenelux_raw.json"
@@ -187,27 +212,30 @@ def verwerk_hulpdienst_luchtvaartuigen(ilt_data, storage_dir, headers):
 
     doel_afkortingen = {'MMTL', 'PAL-RA', 'POL-HELI', 'SAR-HELI', 'KW-VLIEGTUIG'}
 
-    # Laad eventuele handmatige uitzonderingen (Canadese toestellen)
+    # Laad custom uitzonderingen (Canada + NH-90)
     custom_data = laad_of_maak_custom_aircraft_data(storage_dir)
 
-    # Verzamel kentekens
+    # Verzamel doel-kentekens uit de hulpdienst JSON + de NH-90 lijst
     doel_kentekens = {
         str(v.get('Kenteken', '')).strip().upper()
         for v in hulpdienst_data
         if str(v.get('Afkorting', '')).strip().upper() in doel_afkortingen and v.get('Kenteken')
     }
+    
+    # Voeg ook de NH-90 kentekens toe aan de controle
+    for nh_reg in NH90_REGISTRATIES:
+        doel_kentekens.add(nh_reg)
 
     resultaat_records = []
 
-    for kenteken in doel_kentekens:
-        # Zoek in ILT-data (Nederlands register)
+    for kenteken in sorted(doel_kentekens):
+        # Zoek in ILT-data (Nederlands civiel register)
         ilt_match = next(
             (rec for rec in ilt_data if str(rec.get('registration', '')).strip().upper() == kenteken),
             None
         )
 
         if ilt_match:
-            # Filter uitsluitend de 7 gevraagde kolommen
             gefilterd_record = {
                 "registration": ilt_match.get("registration", ""),
                 "manufacturer": ilt_match.get("manufacturer", ""),
@@ -220,7 +248,7 @@ def verwerk_hulpdienst_luchtvaartuigen(ilt_data, storage_dir, headers):
             resultaat_records.append(gefilterd_record)
 
         elif kenteken in custom_data:
-            print(f"   [Custom Data] Handmatige data gebruikt voor: {kenteken}")
+            print(f"   [Custom Data] Handmatige/Militaire data gebruikt voor: {kenteken}")
             custom_rec = custom_data[kenteken]
             gefilterd_record = {
                 "registration": custom_rec.get("registration", kenteken),
@@ -234,7 +262,6 @@ def verwerk_hulpdienst_luchtvaartuigen(ilt_data, storage_dir, headers):
             resultaat_records.append(gefilterd_record)
 
         else:
-            # Fallback als een kenteken nergens bekend is
             resultaat_records.append({
                 "registration": kenteken,
                 "manufacturer": "",
