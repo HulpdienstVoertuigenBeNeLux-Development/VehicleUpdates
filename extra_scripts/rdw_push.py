@@ -14,7 +14,7 @@ API_URL = "https://hulpdienstvoertuigenbenelux.nl/api/rdw/vehicles"
 
 # Aircraft instellingen
 AIRCRAFT_DATA_FILE = os.path.join(PROJECT_ROOT, "storage", "aircraft_data.json")
-AIRCRAFT_API_URL = "https://hulpdienstvoertuigenbenelux.nl/api/rdw/aircraft"  # Pas de API URL aan indien nodig
+AIRCRAFT_API_URL = "https://hulpdienstvoertuigenbenelux.nl/api/rdw/vehicles"  # Pas de API URL aan indien nodig
 
 REQUEST_TIMEOUT_SECONDS = 30
 RED_COLOR = 15158332
