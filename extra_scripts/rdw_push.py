@@ -8,29 +8,38 @@ import requests
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(BASE_DIR)
 
-# RDW Voertuigen instellingen
+# Bestanden
 FULL_COMBINED_FILE = os.path.join(PROJECT_ROOT, "storage", "rdw_full_combined.json")
-API_URL = "https://hulpdienstvoertuigenbenelux.nl/api/rdw/vehicles"
-
-# Aircraft instellingen
 AIRCRAFT_DATA_FILE = os.path.join(PROJECT_ROOT, "storage", "aircraft_data.json")
-AIRCRAFT_API_URL = "https://hulpdienstvoertuigenbenelux.nl/api/rdw/vehicles"  # Pas de API URL aan indien nodig
 
+# API Instellingen
+API_URL = "https://hulpdienstvoertuigenbenelux.nl/api/rdw/vehicles"
 REQUEST_TIMEOUT_SECONDS = 30
 RED_COLOR = 15158332
 GREEN_COLOR = 3066993
 DISCORD_EMBED_DESCRIPTION_LIMIT = 4096
 
+# Mapping van aircraft_data.json velden naar de API velden
+AIRCRAFT_FIELD_MAP = {
+    "registration": "registratie",
+    "manufacturer": "merk",
+    "model": "model",
+    "airw_expiry": "luchtwaardigheidsbewijs_geldig_tot",
+    "built": "bouwjaar",
+    "mtom": "maximaal_startgewicht",
+    "hex_code": "transponder_hex_code",
+}
 
-def _strip_url(message: str, url: str) -> str:
-    return message.replace(url, "").strip()
+
+def _strip_url(message: str) -> str:
+    return message.replace(API_URL, "").strip()
 
 
 # ==========================================
 # GENERIEKE DISCORD NOTIFICATIES
 # ==========================================
 
-def notify_fetch_failure(error: str, prefix: str = "RDW", target_url: str = API_URL) -> None:
+def notify_fetch_failure(error: str, prefix: str = "RDW") -> None:
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL_RDW_API_PUSH", "")
     if not webhook_url:
         print(f"Discord notificatie overgeslagen: geen webhook URL ({error})")
@@ -41,7 +50,7 @@ def notify_fetch_failure(error: str, prefix: str = "RDW", target_url: str = API_
         "embeds": [
             {
                 "title": f"{prefix} push: ophalen mislukt",
-                "description": _strip_url(error, target_url)[:DISCORD_EMBED_DESCRIPTION_LIMIT],
+                "description": _strip_url(error)[:DISCORD_EMBED_DESCRIPTION_LIMIT],
                 "color": RED_COLOR,
             }
         ],
@@ -54,7 +63,7 @@ def notify_fetch_failure(error: str, prefix: str = "RDW", target_url: str = API_
         time.sleep(10)
 
 
-def notify_push_summary(pushed: int, failures: list[tuple[str, str]], prefix: str = "RDW", target_url: str = API_URL) -> None:
+def notify_push_summary(pushed: int, failures: list[tuple[str, str]], prefix: str = "RDW") -> None:
     webhook_url = os.getenv("DISCORD_WEBHOOK_URL_RDW_API_PUSH", "")
     if not webhook_url:
         print(f"Discord {prefix} sync samenvatting overgeslagen: geen webhook URL")
@@ -62,7 +71,7 @@ def notify_push_summary(pushed: int, failures: list[tuple[str, str]], prefix: st
 
     summary_line = f"Gepusht: {pushed}, mislukt: {len(failures)}"
     failure_lines = [
-        f"- {identifier}: {_strip_url(error, target_url)}"[:DISCORD_EMBED_DESCRIPTION_LIMIT]
+        f"- {identifier}: {_strip_url(error)}"[:DISCORD_EMBED_DESCRIPTION_LIMIT]
         for identifier, error in failures
     ]
 
@@ -95,7 +104,6 @@ def notify_push_summary(pushed: int, failures: list[tuple[str, str]], prefix: st
 
 
 def _normalize_value(value: Any) -> Any:
-    # Normalisatie voor zowel nummers als lege strings/nulls
     if value is None or (isinstance(value, str) and value.strip().lower() in ("null", "")):
         return None
     if not isinstance(value, bool) and isinstance(value, (int, float, str)) and str(value).strip() == "0":
@@ -172,7 +180,7 @@ def compare_with_full_combined(vehicles: list) -> None:
         else:
             same += 1
 
-    print(f"\n--- RDW VOERTUIGEN SUMMARY ---")
+    print("\n--- RDW VOERTUIGEN SUMMARY ---")
     print(f"Zelfde in beide: {same}")
     print(f"Verschillend (zelfde kenteken, andere waarden): {len(different_kentekens)}")
     print(f"Alleen in full combined (niet in API): {len(only_in_combined)}")
@@ -202,57 +210,65 @@ def compare_with_full_combined(vehicles: list) -> None:
             failures.append((str(record.get("kenteken")), str(exc)))
 
     if pushed + len(failures) > 0:
-        notify_push_summary(pushed, failures, prefix="RDW Voertuigen", target_url=API_URL)
+        notify_push_summary(pushed, failures, prefix="RDW Voertuigen")
 
 
 # ==========================================
 # AIRCRAFT LOGICA
 # ==========================================
 
-def fetch_aircraft() -> list:
-    last_error: Exception | None = None
-    for attempt in range(1, 3):
-        try:
-            response = requests.get(AIRCRAFT_API_URL, timeout=REQUEST_TIMEOUT_SECONDS)
-            response.raise_for_status()
-            return response.json()
-        except (requests.RequestException, requests.exceptions.JSONDecodeError) as exc:
-            last_error = exc
-            print(f"Vliegtuigen ophalen mislukt (poging {attempt}/2): {exc}")
-
-    raise RuntimeError(f"Ophalen van {AIRCRAFT_API_URL} definitief mislukt: {last_error}") from last_error
-
-
-def push_aircraft(record: dict[str, Any]) -> None:
-    api_key = os.getenv("HVNBL_RDW_API_KEY", "")
-    headers = {"X-RDW-API-Key": api_key}
-    response = requests.post(AIRCRAFT_API_URL, headers=headers, json=record, timeout=REQUEST_TIMEOUT_SECONDS)
-    response.raise_for_status()
-
-
 def load_aircraft_data() -> list:
     with open(AIRCRAFT_DATA_FILE, encoding="utf-8") as infile:
         return json.load(infile)
 
 
-def _normalize_registration(value: Any) -> str:
-    return str(value or "").strip().upper()
+def push_aircraft(record: dict[str, Any]) -> None:
+    api_key = os.getenv("HVNBL_RDW_API_KEY", "")
+    headers = {"X-RDW-API-Key": api_key}
+
+    # Transformeer de aircraft velden naar de API veldnamen
+    payload = {}
+    for key, val in record.items():
+        mapped_key = AIRCRAFT_FIELD_MAP.get(key, key)
+        payload[mapped_key] = val
+
+    response = requests.post(API_URL, headers=headers, json=payload, timeout=REQUEST_TIMEOUT_SECONDS)
+    response.raise_for_status()
 
 
-def _registrations_by_record(records: list) -> dict[str, dict[str, Any]]:
+def _aircraft_by_registration(records: list) -> dict[str, dict[str, Any]]:
     result: dict[str, dict[str, Any]] = {}
     for record in records:
         if not isinstance(record, dict):
             continue
-        reg = _normalize_registration(record.get("registration"))
+        # Check op 'registration' (uit JSON) of op 'kenteken' (uit API)
+        reg = _normalize_kenteken(record.get("registration") or record.get("kenteken"))
         if reg:
             result[reg] = record
     return result
 
 
-def compare_aircraft_with_data(api_aircraft: list) -> None:
-    api_by_reg = _registrations_by_record(api_aircraft)
-    file_by_reg = _registrations_by_record(load_aircraft_data())
+def _record_to_api_format(record: dict[str, Any]) -> dict[str, Any]:
+    """Zet een aircraft record om naar API-formaat voor vergelijking."""
+    mapped = {}
+    for k, v in record.items():
+        mapped_k = AIRCRAFT_FIELD_MAP.get(k, k)
+        mapped[mapped_k] = v
+    return mapped
+
+
+def compare_aircraft_with_api(api_vehicles: list) -> None:
+    api_by_reg = _aircraft_by_registration(api_vehicles)
+    raw_aircraft_data = load_aircraft_data()
+
+    # Mappen van local bestand voor vergelijking
+    file_by_reg: dict[str, dict[str, Any]] = {}
+    raw_file_by_reg: dict[str, dict[str, Any]] = {}
+    for record in raw_aircraft_data:
+        reg = _normalize_kenteken(record.get("registration"))
+        if reg:
+            raw_file_by_reg[reg] = record
+            file_by_reg[reg] = _record_to_api_format(record)
 
     shared = set(api_by_reg) & set(file_by_reg)
     only_in_file = set(file_by_reg) - set(api_by_reg)
@@ -274,16 +290,16 @@ def compare_aircraft_with_data(api_aircraft: list) -> None:
         else:
             same += 1
 
-    print(f"\n--- AIRCRAFT SUMMARY ---")
+    print("\n--- AIRCRAFT SUMMARY ---")
     print(f"Zelfde in beide: {same}")
     print(f"Verschillend (zelfde registratie, andere waarden): {len(different_regs)}")
-    print(f"Alleen in bestand (niet in API): {len(only_in_file)}")
-    print(f"Alleen in API (niet in bestand): {len(only_in_api)}")
+    print(f"Alleen in aircraft_data.json (niet in API): {len(only_in_file)}")
+    print(f"Alleen in API (niet in aircraft_data.json): {len(only_in_api)}")
 
     for reg in sorted(different_regs):
         api_record = api_by_reg[reg]
         file_record = file_by_reg[reg]
-        print(f"Verschil voor {file_record.get('registration')}:")
+        print(f"Verschil voor {file_record.get('kenteken') or reg}:")
         for key in sorted(diffs_by_reg[reg]):
             api_value = api_record.get(key)
             file_value = file_record.get(key)
@@ -294,7 +310,7 @@ def compare_aircraft_with_data(api_aircraft: list) -> None:
     pushed = 0
     failures: list[tuple[str, str]] = []
     for reg in only_in_file | different_regs:
-        record = file_by_reg[reg]
+        record = raw_file_by_reg[reg]
         try:
             push_aircraft(record)
             print(f"Gepusht naar API: {record.get('registration')}")
@@ -304,53 +320,40 @@ def compare_aircraft_with_data(api_aircraft: list) -> None:
             failures.append((str(record.get("registration")), str(exc)))
 
     if pushed + len(failures) > 0:
-        notify_push_summary(pushed, failures, prefix="Aircraft", target_url=AIRCRAFT_API_URL)
+        notify_push_summary(pushed, failures, prefix="Aircraft")
 
 
 # ==========================================
 # RUN PROCESS
 # ==========================================
 
-def run_rdw_vehicles() -> None:
+def run_rdw_vehicles(vehicles: list) -> None:
+    print("\n>>> Starten RDW Voertuigen sync...")
+    compare_with_full_combined(vehicles)
+
+
+def run_aircraft(vehicles: list) -> None:
+    print("\n>>> Starten Aircraft sync...")
+    compare_aircraft_with_api(vehicles)
+
+
+def run() -> None:
     try:
         vehicles = fetch_vehicles()
     except RuntimeError as exc:
         print(str(exc))
-        notify_fetch_failure(str(exc), prefix="RDW Voertuigen", target_url=API_URL)
+        notify_fetch_failure(str(exc), prefix="RDW Push")
         return
 
     print(f"Opgehaald: {len(vehicles)} voertuigen van {API_URL}")
     if not vehicles:
         message = f"Lege lijst ontvangen van {API_URL}, sync overgeslagen (niets gepusht)."
         print(message)
-        notify_fetch_failure(message, prefix="RDW Voertuigen", target_url=API_URL)
-        return
-    compare_with_full_combined(vehicles)
-
-
-def run_aircraft() -> None:
-    try:
-        aircraft = fetch_aircraft()
-    except RuntimeError as exc:
-        print(str(exc))
-        notify_fetch_failure(str(exc), prefix="Aircraft", target_url=AIRCRAFT_API_URL)
+        notify_fetch_failure(message, prefix="RDW Push")
         return
 
-    print(f"Opgehaald: {len(aircraft)} vliegtuigen van {AIRCRAFT_API_URL}")
-    if not aircraft:
-        message = f"Lege lijst ontvangen van {AIRCRAFT_API_URL}, sync overgeslagen (niets gepusht)."
-        print(message)
-        notify_fetch_failure(message, prefix="Aircraft", target_url=AIRCRAFT_API_URL)
-        return
-    compare_aircraft_with_data(aircraft)
-
-
-def run() -> None:
-    print(">>> Starten RDW Voertuigen sync...")
-    run_rdw_vehicles()
-
-    print("\n>>> Starten Aircraft sync...")
-    run_aircraft()
+    run_rdw_vehicles(vehicles)
+    run_aircraft(vehicles)
 
 
 if __name__ == "__main__":
