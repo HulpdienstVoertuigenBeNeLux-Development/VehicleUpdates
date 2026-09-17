@@ -32,3 +32,11 @@ jobs:
 
     - name: Script uitvoeren
       run: python get_luchtvaartdata.py
+
+    - name: JSON-bestand committen en pushen naar repository
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add storage/
+        git commit -m "Automated update: ILT luchtvaartregister JSON" || exit 0
+        git push
