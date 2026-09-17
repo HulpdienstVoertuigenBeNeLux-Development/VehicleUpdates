@@ -226,15 +226,17 @@ def push_aircraft(record: dict[str, Any]) -> None:
     api_key = os.getenv("HVNBL_RDW_API_KEY", "")
     headers = {"X-RDW-API-Key": api_key}
 
-    # Transformeer de aircraft velden naar de API veldnamen
     payload = {}
     for key, val in record.items():
         mapped_key = AIRCRAFT_FIELD_MAP.get(key, key)
         payload[mapped_key] = val
 
     response = requests.post(API_URL, headers=headers, json=payload, timeout=REQUEST_TIMEOUT_SECONDS)
+    
+    if not response.ok:
+        print(f"Server respons ({response.status_code}) voor {record.get('registration')}: {response.text}")
+        
     response.raise_for_status()
-
 
 def _aircraft_by_registration(records: list) -> dict[str, dict[str, Any]]:
     result: dict[str, dict[str, Any]] = {}
