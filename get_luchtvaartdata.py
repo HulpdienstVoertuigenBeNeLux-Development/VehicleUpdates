@@ -116,37 +116,40 @@ def ilt_exporteren_alle_kolommen():
 
     print(f"Volledig register opgeslagen in '{storage_path}'.")
 
-    # 7. MMTL Filterfunctie uitvoeren
-    verwerk_mmtl_voertuigen(json_records, storage_dir, headers)
+    # 7. Luchtvaartuigen Filterfunctie uitvoeren
+    verwerk_hulpdienst_luchtvaartuigen(json_records, storage_dir, headers)
 
 
-def verwerk_mmtl_voertuigen(ilt_data, storage_dir, headers):
-    """Haalt MMTL kentekens op en slaat alleen hun ILT luchvaartregister-data op."""
-    print("6. MMTL kentekens ophalen en ILT data filteren...")
+def verwerk_hulpdienst_luchtvaartuigen(ilt_data, storage_dir, headers):
+    """Haalt hulpdienst-kentekens op (MMTL, PAL-RA, POL-Heli, SAR-Heli, KW-Vliegtuig) en slaat hun ILT luchvaartregister-data op."""
+    print("6. Hulpdienst kentekens ophalen en ILT data filteren...")
     hulpdienst_url = "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleUpdates/refs/heads/master/raw/hulpdienstvoertuigenbenelux_raw.json"
 
     response = requests.get(hulpdienst_url, headers=headers)
     response.raise_for_status()
     hulpdienst_data = response.json()
 
-    # Verzamel alle MMTL kentekens in een set (genormaliseerd naar hoofdletters zonder spaties)
-    mmtl_kentekens = {
+    # Gewenste afkortingen
+    doel_afkortingen = {'MMTL', 'PAL-RA', 'POL-HELI', 'SAR-HELI', 'KW-VLIEGTUIG'}
+
+    # Verzamel kentekens die matchen met de afkortingen (hoofdletterongevoelig)
+    doel_kentekens = {
         str(v.get('Kenteken', '')).strip().upper()
         for v in hulpdienst_data
-        if v.get('Afkorting') == 'MMTL' and v.get('Kenteken')
+        if str(v.get('Afkorting', '')).strip().upper() in doel_afkortingen and v.get('Kenteken')
     }
 
-    # Filter de ILT data direct: alleen records waarvan 'registration' in de MMTL set staat
-    mmtl_ilt_data = [
+    # Filter de ILT data direct: alleen records waarvan 'registration' in de doel_kentekens set staat
+    gefilterde_ilt_data = [
         record for record in ilt_data
-        if str(record.get('registration', '')).strip().upper() in mmtl_kentekens
+        if str(record.get('registration', '')).strip().upper() in doel_kentekens
     ]
 
     output_aircraft_path = os.path.join(storage_dir, 'aircraft_data.json')
     with open(output_aircraft_path, 'w', encoding='utf-8') as f:
-        json.dump(mmtl_ilt_data, f, ensure_ascii=False, indent=2, default=str)
+        json.dump(gefilterde_ilt_data, f, ensure_ascii=False, indent=2, default=str)
 
-    print(f"Klaar! {len(mmtl_ilt_data)} MMTL luchtvaartuig-records opgeslagen in '{output_aircraft_path}'.")
+    print(f"Klaar! {len(gefilterde_ilt_data)} gefilterde luchtvaartuig-records opgeslagen in '{output_aircraft_path}'.")
 
 
 if __name__ == '__main__':
