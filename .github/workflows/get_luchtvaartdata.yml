@@ -4,18 +4,18 @@ on:
   schedule:
     # Draait elke maandag om 03:00 UTC
     - cron: '0 3 * * 1'
-  workflow_dispatch: # Maakt het ook mogelijk om handmatig op te starten via GitHub UI
+  workflow_dispatch: # Zorgt ervoor dat je de workflow ook handmatig kunt starten via het GitHub dashboard
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Code ophalen
-      uses: actions/checkout@v3
+    - name: Code ophalen uit repository
+      uses: actions/checkout@v4
 
     - name: Python instellen
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
@@ -24,19 +24,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install pandas requests beautifulsoup4 odfpy
 
-    - name: Mappen aanmaken
-      run: |
-        sudo mkdir -p /raw/ilt_luchtvaartregister
-        sudo mkdir -p /storage
-        sudo chmod -R 777 /raw /storage
-
     - name: Script uitvoeren
       run: python get_luchtvaartdata.py
 
-    - name: JSON-bestand committen en pushen naar repository
+    - name: Wijzigingen (alle bestanden in storage) committen en pushen
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add storage/
-        git commit -m "Automated update: ILT luchtvaartregister JSON" || exit 0
+        git commit -m "Automated update: ILT register & MMTL aircraft data" || exit 0
         git push
