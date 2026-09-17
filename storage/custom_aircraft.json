@@ -1,0 +1,20 @@
+{
+  "C-FCGE": {
+    "registration": "C-FCGE",
+    "manufacturer": "DE HAVILLAND CANADA",
+    "model": "DHC-8-102",
+    "airw_expiry": "",
+    "built": "1986",
+    "mtom": "15649",
+    "hex_code": "C00B21"
+  },
+  "C-GNDB": {
+    "registration": "C-GNDB",
+    "manufacturer": "DE HAVILLAND CANADA",
+    "model": "DHC-8-102",
+    "airw_expiry": "",
+    "built": "1986",
+    "mtom": "15649",
+    "hex_code": ""
+  }
+}
