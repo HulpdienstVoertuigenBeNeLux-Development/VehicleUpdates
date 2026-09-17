@@ -121,38 +121,32 @@ def ilt_exporteren_alle_kolommen():
 
 
 def verwerk_mmtl_voertuigen(ilt_data, storage_dir, headers):
-    """Haalt hulpdienstvoertuigen op, filtert op MMTL en koppelt de ILT luchtvaartdata."""
-    print("6. MMTL voertuigen ophalen en matchen met ILT data...")
+    """Haalt MMTL kentekens op en slaat alleen hun ILT luchvaartregister-data op."""
+    print("6. MMTL kentekens ophalen en ILT data filteren...")
     hulpdienst_url = "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleUpdates/refs/heads/master/raw/hulpdienstvoertuigenbenelux_raw.json"
 
     response = requests.get(hulpdienst_url, headers=headers)
     response.raise_for_status()
     hulpdienst_data = response.json()
 
-    # Indexeer de ILT data op 'registration' voor snelle lookup
-    ilt_lookup = {}
-    for record in ilt_data:
-        reg = str(record.get('registration', '')).strip().upper()
-        if reg:
-            ilt_lookup[reg] = record
+    # Verzamel alle MMTL kentekens in een set (genormaliseerd naar hoofdletters zonder spaties)
+    mmtl_kentekens = {
+        str(v.get('Kenteken', '')).strip().upper()
+        for v in hulpdienst_data
+        if v.get('Afkorting') == 'MMTL' and v.get('Kenteken')
+    }
 
-    gekoppelde_data = []
-
-    for voertuig in hulpdienst_data:
-        if voertuig.get('Afkorting') == 'MMTL':
-            kenteken = str(voertuig.get('Kenteken', '')).strip().upper()
-            ilt_match = ilt_lookup.get(kenteken)
-
-            gekoppelde_data.append({
-                "hulpdienst_info": voertuig,
-                "ilt_aircraft_info": ilt_match if ilt_match else "Niet gevonden in ILT register"
-            })
+    # Filter de ILT data direct: alleen records waarvan 'registration' in de MMTL set staat
+    mmtl_ilt_data = [
+        record for record in ilt_data
+        if str(record.get('registration', '')).strip().upper() in mmtl_kentekens
+    ]
 
     output_aircraft_path = os.path.join(storage_dir, 'aircraft_data.json')
     with open(output_aircraft_path, 'w', encoding='utf-8') as f:
-        json.dump(gekoppelde_data, f, ensure_ascii=False, indent=2, default=str)
+        json.dump(mmtl_ilt_data, f, ensure_ascii=False, indent=2, default=str)
 
-    print(f"Klaar! {len(gekoppelde_data)} MMTL voertuigen opgeslagen in '{output_aircraft_path}'.")
+    print(f"Klaar! {len(mmtl_ilt_data)} MMTL luchtvaartuig-records opgeslagen in '{output_aircraft_path}'.")
 
 
 if __name__ == '__main__':
