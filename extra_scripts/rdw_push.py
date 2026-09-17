@@ -21,13 +21,13 @@ DISCORD_EMBED_DESCRIPTION_LIMIT = 4096
 
 # Mapping van aircraft_data.json velden naar de API velden
 AIRCRAFT_FIELD_MAP = {
-    "registration": "registratie",
+    "registration": "kenteken",
     "manufacturer": "merk",
-    "model": "model",
-    "airw_expiry": "luchtwaardigheidsbewijs_geldig_tot",
+    "model": "handelsbenaming",
+    "airw_expiry": "luchtwaardigheidsbewijs",
     "built": "bouwjaar",
     "mtom": "maximaal_startgewicht",
-    "hex_code": "transponder_hex_code",
+    "hex_code": "hex_code",
 }
 
 
@@ -150,7 +150,7 @@ def _kentekens_by_record(records: list) -> dict[str, dict[str, Any]]:
     for record in records:
         if not isinstance(record, dict):
             continue
-        kenteken = _normalize_kenteken(record.get("kenteken"))
+        kenteken = _normalize_kenteken(record.get("kenteken") or record.get("registration"))
         if kenteken:
             result[kenteken] = record
     return result
@@ -226,10 +226,15 @@ def push_aircraft(record: dict[str, Any]) -> None:
     api_key = os.getenv("HVNBL_RDW_API_KEY", "")
     headers = {"X-RDW-API-Key": api_key}
 
+    # Transformeer de aircraft velden naar de verwachte API veldnamen
     payload = {}
     for key, val in record.items():
         mapped_key = AIRCRAFT_FIELD_MAP.get(key, key)
         payload[mapped_key] = val
+
+    # Zorg dat 'kenteken' altijd expliciet gevuld is
+    if "kenteken" not in payload or not payload["kenteken"]:
+        payload["kenteken"] = record.get("registration") or record.get("kenteken")
 
     response = requests.post(API_URL, headers=headers, json=payload, timeout=REQUEST_TIMEOUT_SECONDS)
     
@@ -238,36 +243,25 @@ def push_aircraft(record: dict[str, Any]) -> None:
         
     response.raise_for_status()
 
-def _aircraft_by_registration(records: list) -> dict[str, dict[str, Any]]:
-    result: dict[str, dict[str, Any]] = {}
-    for record in records:
-        if not isinstance(record, dict):
-            continue
-        # Check op 'registration' (uit JSON) of op 'kenteken' (uit API)
-        reg = _normalize_kenteken(record.get("registration") or record.get("kenteken"))
-        if reg:
-            result[reg] = record
-    return result
-
 
 def _record_to_api_format(record: dict[str, Any]) -> dict[str, Any]:
-    """Zet een aircraft record om naar API-formaat voor vergelijking."""
     mapped = {}
     for k, v in record.items():
         mapped_k = AIRCRAFT_FIELD_MAP.get(k, k)
         mapped[mapped_k] = v
+    if "kenteken" not in mapped or not mapped["kenteken"]:
+        mapped["kenteken"] = record.get("registration") or record.get("kenteken")
     return mapped
 
 
 def compare_aircraft_with_api(api_vehicles: list) -> None:
-    api_by_reg = _aircraft_by_registration(api_vehicles)
+    api_by_reg = _kentekens_by_record(api_vehicles)
     raw_aircraft_data = load_aircraft_data()
 
-    # Mappen van local bestand voor vergelijking
     file_by_reg: dict[str, dict[str, Any]] = {}
     raw_file_by_reg: dict[str, dict[str, Any]] = {}
     for record in raw_aircraft_data:
-        reg = _normalize_kenteken(record.get("registration"))
+        reg = _normalize_kenteken(record.get("registration") or record.get("kenteken"))
         if reg:
             raw_file_by_reg[reg] = record
             file_by_reg[reg] = _record_to_api_format(record)
@@ -313,13 +307,14 @@ def compare_aircraft_with_api(api_vehicles: list) -> None:
     failures: list[tuple[str, str]] = []
     for reg in only_in_file | different_regs:
         record = raw_file_by_reg[reg]
+        identifier = record.get("registration") or record.get("kenteken")
         try:
             push_aircraft(record)
-            print(f"Gepusht naar API: {record.get('registration')}")
+            print(f"Gepusht naar API: {identifier}")
             pushed += 1
         except requests.RequestException as exc:
-            print(f"Push mislukt voor {record.get('registration')}: {exc}")
-            failures.append((str(record.get("registration")), str(exc)))
+            print(f"Push mislukt voor {identifier}: {exc}")
+            failures.append((str(identifier), str(exc)))
 
     if pushed + len(failures) > 0:
         notify_push_summary(pushed, failures, prefix="Aircraft")
