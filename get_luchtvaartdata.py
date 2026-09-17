@@ -1,10 +1,31 @@
-import io
 import json
 import os
 import re
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+
+# Standaard sjabloon voor de Canadese Kustwachtvliegtuigen met exact de 7 gevraagde velden
+DEFAULT_CUSTOM_AIRCRAFT = {
+    "C-FCGE": {
+        "registration": "C-FCGE",
+        "manufacturer": "DE HAVILLAND CANADA",
+        "model": "DHC-8-102",
+        "airw_expiry": "",
+        "built": "1986",
+        "mtom": "15649",
+        "hex_code": "C00B21"
+    },
+    "C-GNDB": {
+        "registration": "C-GNDB",
+        "manufacturer": "DE HAVILLAND CANADA",
+        "model": "DHC-8-102",
+        "airw_expiry": "",
+        "built": "1986",
+        "mtom": "15649",
+        "hex_code": ""
+    }
+}
 
 
 def haal_nieuwste_ilt_ods_url():
@@ -55,6 +76,38 @@ def opschonen_alle_kolomnamen(df):
         schone_koppen[col] = snake_naam
 
     return df.rename(columns=schone_koppen)
+
+
+def laad_of_maak_custom_aircraft_data(storage_dir):
+    """
+    Laadt storage/custom_aircraft.json.
+    Als het bestand niet bestaat, maakt het een standaard sjabloon aan voor de Kustwacht.
+    """
+    custom_path = os.path.join(storage_dir, 'custom_aircraft.json')
+
+    if not os.path.exists(custom_path):
+        print(f"   Aanmaken standaard custom data bestand in '{custom_path}'...")
+        with open(custom_path, 'w', encoding='utf-8') as f:
+            json.dump(DEFAULT_CUSTOM_AIRCRAFT, f, ensure_ascii=False, indent=2)
+        return DEFAULT_CUSTOM_AIRCRAFT
+
+    try:
+        with open(custom_path, 'r', encoding='utf-8') as f:
+            print(f"   Custom data geladen uit '{custom_path}'.")
+            return json.load(f)
+    except Exception as e:
+        print(f"   [Waarschuwing] Kon custom_aircraft.json niet lezen ({e}). Gebruik standaardwaarden.")
+        return DEFAULT_CUSTOM_AIRCRAFT
+
+
+def schonen_bouwjaar(waarde):
+    """Zet '2019.0' om naar '2019' en behandeld lege waarden netjes."""
+    if pd.isna(waarde) or waarde == "":
+        return ""
+    s_waarde = str(waarde).strip()
+    if s_waarde.endswith('.0'):
+        return s_waarde[:-2]
+    return s_waarde
 
 
 def ilt_exporteren_alle_kolommen():
@@ -121,35 +174,82 @@ def ilt_exporteren_alle_kolommen():
 
 
 def verwerk_hulpdienst_luchtvaartuigen(ilt_data, storage_dir, headers):
-    """Haalt hulpdienst-kentekens op (MMTL, PAL-RA, POL-Heli, SAR-Heli, KW-Vliegtuig) en slaat hun ILT luchvaartregister-data op."""
-    print("6. Hulpdienst kentekens ophalen en ILT data filteren...")
+    """
+    Haalt hulpdienst-kentekens op en slaat ALLEEN de 7 gespecificeerde velden op.
+    Gebruikt 'storage/custom_aircraft.json' voor niet-ILT toestellen (Canada).
+    """
+    print("6. Hulpdienst kentekens ophalen en 7 velden selecteren...")
     hulpdienst_url = "https://raw.githubusercontent.com/HulpdienstVoertuigenBeNeLux/VehicleUpdates/refs/heads/master/raw/hulpdienstvoertuigenbenelux_raw.json"
 
     response = requests.get(hulpdienst_url, headers=headers)
     response.raise_for_status()
     hulpdienst_data = response.json()
 
-    # Gewenste afkortingen
     doel_afkortingen = {'MMTL', 'PAL-RA', 'POL-HELI', 'SAR-HELI', 'KW-VLIEGTUIG'}
 
-    # Verzamel kentekens die matchen met de afkortingen (hoofdletterongevoelig)
+    # Laad eventuele handmatige uitzonderingen (Canadese toestellen)
+    custom_data = laad_of_maak_custom_aircraft_data(storage_dir)
+
+    # Verzamel kentekens
     doel_kentekens = {
         str(v.get('Kenteken', '')).strip().upper()
         for v in hulpdienst_data
         if str(v.get('Afkorting', '')).strip().upper() in doel_afkortingen and v.get('Kenteken')
     }
 
-    # Filter de ILT data direct: alleen records waarvan 'registration' in de doel_kentekens set staat
-    gefilterde_ilt_data = [
-        record for record in ilt_data
-        if str(record.get('registration', '')).strip().upper() in doel_kentekens
-    ]
+    resultaat_records = []
+
+    for kenteken in doel_kentekens:
+        # Zoek in ILT-data (Nederlands register)
+        ilt_match = next(
+            (rec for rec in ilt_data if str(rec.get('registration', '')).strip().upper() == kenteken),
+            None
+        )
+
+        if ilt_match:
+            # Filter uitsluitend de 7 gevraagde kolommen
+            gefilterd_record = {
+                "registration": ilt_match.get("registration", ""),
+                "manufacturer": ilt_match.get("manufacturer", ""),
+                "model": ilt_match.get("model", ""),
+                "airw_expiry": ilt_match.get("airw_expiry", ""),
+                "built": schonen_bouwjaar(ilt_match.get("built", "")),
+                "mtom": ilt_match.get("mtom", ""),
+                "hex_code": ilt_match.get("hex_code", "")
+            }
+            resultaat_records.append(gefilterd_record)
+
+        elif kenteken in custom_data:
+            print(f"   [Custom Data] Handmatige data gebruikt voor: {kenteken}")
+            custom_rec = custom_data[kenteken]
+            gefilterd_record = {
+                "registration": custom_rec.get("registration", kenteken),
+                "manufacturer": custom_rec.get("manufacturer", ""),
+                "model": custom_rec.get("model", ""),
+                "airw_expiry": custom_rec.get("airw_expiry", ""),
+                "built": schonen_bouwjaar(custom_rec.get("built", "")),
+                "mtom": custom_rec.get("mtom", ""),
+                "hex_code": custom_rec.get("hex_code", "")
+            }
+            resultaat_records.append(gefilterd_record)
+
+        else:
+            # Fallback als een kenteken nergens bekend is
+            resultaat_records.append({
+                "registration": kenteken,
+                "manufacturer": "",
+                "model": "",
+                "airw_expiry": "",
+                "built": "",
+                "mtom": "",
+                "hex_code": ""
+            })
 
     output_aircraft_path = os.path.join(storage_dir, 'aircraft_data.json')
     with open(output_aircraft_path, 'w', encoding='utf-8') as f:
-        json.dump(gefilterde_ilt_data, f, ensure_ascii=False, indent=2, default=str)
+        json.dump(resultaat_records, f, ensure_ascii=False, indent=2, default=str)
 
-    print(f"Klaar! {len(gefilterde_ilt_data)} gefilterde luchtvaartuig-records opgeslagen in '{output_aircraft_path}'.")
+    print(f"Klaar! {len(resultaat_records)} luchtvaartuig-records met 7 velden opgeslagen in '{output_aircraft_path}'.")
 
 
 if __name__ == '__main__':
