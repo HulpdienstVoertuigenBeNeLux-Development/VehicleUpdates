@@ -13,7 +13,7 @@ FULL_COMBINED_FILE = os.path.join(PROJECT_ROOT, "storage", "rdw_full_combined.js
 AIRCRAFT_DATA_FILE = os.path.join(PROJECT_ROOT, "storage", "aircraft_data.json")
 
 # API Endpoint (beide maken gebruik van hetzelfde endpoint)
-API_URL_VEHICLES = "https://hulpdienstvoertuigenbenelux.nl/api/rdw/vehicles"
+API_URL_VEHICLES = "https://development.hulpdienstvoertuigenbenelux.nl/api/rdw/vehicles"
 
 REQUEST_TIMEOUT_SECONDS = 30
 RED_COLOR = 15158332
