@@ -43,23 +43,15 @@ def opschonen_alle_kolomnamen(df):
     schone_koppen = {}
 
     for col in df.columns:
-        # 1. Pak alleen de tekst vóór de eerste '[' (stript alle [details=..][kolom=..] tags)
         basis = col.split('[')[0].strip()
-
-        # 2. Vaste handmatige opschoning voor speciale tekens/afkortingen
         basis = (
             basis.replace('X-Ponder', 'hex_code')
             .replace('CofA (Form24/25)_Iss.', 'cofa_issued')
             .replace('83Bis', '83bis')
         )
-
-        # 3. Zet CamelCase / spaties om naar nette snake_case (kleine letters met underscores)
         s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', basis)
         snake_naam = re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
-
-        # Extra leestekens/spaties opruimen
         snake_naam = re.sub(r'[\s\-\(\)/]+', '_', snake_naam).strip('_')
-
         schone_koppen[col] = snake_naam
 
     return df.rename(columns=schone_koppen)
@@ -72,9 +64,12 @@ def ilt_exporteren_alle_kolommen():
         )
     }
 
-    # Mapspecificaties
-    raw_subdir = '/raw/ilt_luchtvaartregister'
-    storage_dir = '/storage'
+    # Bepaal het absolute pad van de map waarin DIT script staat
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Maak relatieve paden aan binnen het project
+    raw_subdir = os.path.join(script_dir, "raw", "ilt_luchtvaartregister")
+    storage_dir = os.path.join(script_dir, "storage")
 
     os.makedirs(raw_subdir, exist_ok=True)
     os.makedirs(storage_dir, exist_ok=True)
@@ -84,7 +79,7 @@ def ilt_exporteren_alle_kolommen():
     ods_filename = ods_url.split('/')[-1]
     raw_path = os.path.join(raw_subdir, ods_filename)
 
-    # 2. Oude .ods bestanden binnen de specifieke submap opruimen
+    # 2. Oude .ods bestanden in de specifieke map opruimen
     print(f"2. Oude .ods bestanden opruimen in '{raw_subdir}'...")
     for file in os.listdir(raw_subdir):
         if file.lower().endswith('.ods'):
@@ -93,7 +88,7 @@ def ilt_exporteren_alle_kolommen():
                 os.remove(file_path)
                 print(f"   Oud bestand verwijderd: {file}")
 
-    # 3. Download ODS en opslaan in de submap van /raw
+    # 3. Download ODS
     print(f"3. Downloaden van ODS-databestand naar '{raw_path}'...")
     res = requests.get(ods_url, headers=headers)
     res.raise_for_status()
@@ -105,19 +100,17 @@ def ilt_exporteren_alle_kolommen():
     print("4. Bestand verwerken met Pandas...")
     df = pd.read_excel(raw_path, engine='odf')
 
-    # 5. ALLE kolommen opschonen
+    # 5. Kolommen opschonen
     print("5. Alle kolomnamen opschonen naar snake_case JSON sleutels...")
     df_schoon = opschonen_alle_kolomnamen(df)
 
-    # Datum-kolommen omzetten naar YYYY-MM-DD string
     for col in df_schoon.columns:
         if pd.api.types.is_datetime64_any_dtype(df_schoon[col]):
             df_schoon[col] = df_schoon[col].dt.strftime('%Y-%m-%d')
 
-    # Lege waarden (NaN) vervangen door lege strings
     df_schoon = df_schoon.fillna('')
 
-    # 6. Opslaan in JSON (overschrijft het bestaande bestand automatisch)
+    # 6. Opslaan in JSON
     json_records = df_schoon.to_dict(orient='records')
     output_filename = 'nederlandse_luchtvaartregister_ilt_alle_kolommen.json'
     storage_path = os.path.join(storage_dir, output_filename)
@@ -127,7 +120,7 @@ def ilt_exporteren_alle_kolommen():
 
     print(
         f"\nKlaar! {len(json_records)} records opgeslagen met ALLE"
-        f" ({len(df_schoon.columns)}) kolommen in '{storage_path}'."
+        f" ({len(df_schoon.columns)}) kolommen in:\n'{storage_path}'"
     )
 
 
