@@ -1,30 +1,192 @@
 [
   {
-    "registration": "PH-RSQ",
-    "manufacturer": "Leonardo S.p.a. Helicopters",
-    "model": "AW189",
-    "airw_expiry": "2027-01-09",
-    "built": "2017",
-    "mtom": "  8600",
-    "hex_code": "48644A"
+    "registration": "C-FCGE",
+    "manufacturer": "DE HAVILLAND CANADA",
+    "model": "DHC-8-102",
+    "airw_expiry": "",
+    "built": "1986",
+    "mtom": "15649",
+    "hex_code": "C00B21"
   },
   {
-    "registration": "PH-PXB",
-    "manufacturer": "Eurocopter Deutschland GmbH",
-    "model": "EC135 P2+",
-    "airw_expiry": "2027-06-30",
-    "built": "2009",
-    "mtom": "  2950",
-    "hex_code": "484A92"
+    "registration": "N-088",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
   },
   {
-    "registration": "PH-DOC",
-    "manufacturer": "Airbus Helicopters Deutschland GmbH",
-    "model": "EC135 P3H",
-    "airw_expiry": "2026-09-24",
-    "built": "2019",
-    "mtom": "  2980",
-    "hex_code": "485E49"
+    "registration": "N-102",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-110",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-164",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-175",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-195",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-227",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-228",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-233",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-234",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-258",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-277",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-316",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-317",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-318",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-319",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-324",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-325",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-326",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
+  },
+  {
+    "registration": "N-327",
+    "manufacturer": "NHIndustries",
+    "model": "NH90 NFH",
+    "airw_expiry": "",
+    "built": "",
+    "mtom": "11000",
+    "hex_code": ""
   },
   {
     "registration": "PH-CGD",
@@ -36,175 +198,13 @@
     "hex_code": ""
   },
   {
-    "registration": "N-326",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "PH-PXA",
-    "manufacturer": "Eurocopter Deutschland GmbH",
-    "model": "EC135 P2+",
-    "airw_expiry": "2027-06-30",
-    "built": "2009",
-    "mtom": "  2950",
-    "hex_code": "484A91"
-  },
-  {
-    "registration": "PH-PXZ",
-    "manufacturer": "Agusta S.p.A., Divisione Elicotteri",
-    "model": "AW139",
-    "airw_expiry": "2026-10-08",
-    "built": "2009",
-    "mtom": "  6800",
-    "hex_code": "484AC0"
-  },
-  {
-    "registration": "N-327",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "N-228",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "PH-NCG",
-    "manufacturer": "AgustaWestland (\"Yeovil\")",
-    "model": "AW189",
-    "airw_expiry": "2026-10-27",
-    "built": "2015",
-    "mtom": "  8600",
-    "hex_code": "48644B"
-  },
-  {
-    "registration": "N-195",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "PH-UMC",
+    "registration": "PH-DOC",
     "manufacturer": "Airbus Helicopters Deutschland GmbH",
     "model": "EC135 P3H",
-    "airw_expiry": "2027-06-22",
-    "built": "2020",
+    "airw_expiry": "2026-09-24",
+    "built": "2019",
     "mtom": "  2980",
-    "hex_code": "48605C"
-  },
-  {
-    "registration": "N-318",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "PH-PXE",
-    "manufacturer": "Eurocopter Deutschland GmbH",
-    "model": "EC135 P2+",
-    "airw_expiry": "2028-07-26",
-    "built": "2009",
-    "mtom": "  2950",
-    "hex_code": "484A95"
-  },
-  {
-    "registration": "N-227",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "N-317",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "PH-PXD",
-    "manufacturer": "Eurocopter Deutschland GmbH",
-    "model": "EC135 P2+",
-    "airw_expiry": "2029-09-14",
-    "built": "2009",
-    "mtom": "  2950",
-    "hex_code": "484A94"
-  },
-  {
-    "registration": "PH-TTR",
-    "manufacturer": "Airbus Helicopters Deutschland GmbH",
-    "model": "EC135 P3H",
-    "airw_expiry": "2027-01-01",
-    "built": "2017",
-    "mtom": "  2980",
-    "hex_code": "4857B3"
-  },
-  {
-    "registration": "PH-PXC",
-    "manufacturer": "Eurocopter Deutschland GmbH",
-    "model": "EC135 P2+",
-    "airw_expiry": "2028-07-23",
-    "built": "2009",
-    "mtom": "  2950",
-    "hex_code": "484A93"
-  },
-  {
-    "registration": "N-110",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "PH-OOP",
-    "manufacturer": "Airbus Helicopters Deutschland GmbH",
-    "model": "MBB-BK 117 D-2",
-    "airw_expiry": "2027-01-19",
-    "built": "2015",
-    "mtom": "  3700",
-    "hex_code": "4853E2"
-  },
-  {
-    "registration": "N-325",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "N-324",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
+    "hex_code": "485E49"
   },
   {
     "registration": "PH-HIP",
@@ -216,40 +216,13 @@
     "hex_code": "486A31"
   },
   {
-    "registration": "PH-SAR",
-    "manufacturer": "Leonardo S.p.a. Helicopters",
-    "model": "AW189",
-    "airw_expiry": "2026-10-27",
-    "built": "2022",
-    "mtom": "  8600",
-    "hex_code": "486449"
-  },
-  {
-    "registration": "N-234",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "N-316",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "PH-LLN",
+    "registration": "PH-HLP",
     "manufacturer": "Airbus Helicopters Deutschland GmbH",
     "model": "EC135 P3H",
-    "airw_expiry": "2027-05-25",
-    "built": "2020",
+    "airw_expiry": "2027-06-18",
+    "built": "2026",
     "mtom": "  2980",
-    "hex_code": "48605B"
+    "hex_code": "486A30"
   },
   {
     "registration": "PH-HOW",
@@ -261,67 +234,76 @@
     "hex_code": "4853F6"
   },
   {
-    "registration": "PH-PXY",
-    "manufacturer": "Agusta S.p.A., Divisione Elicotteri",
-    "model": "AW139",
-    "airw_expiry": "2028-12-11",
+    "registration": "PH-LLN",
+    "manufacturer": "Airbus Helicopters Deutschland GmbH",
+    "model": "EC135 P3H",
+    "airw_expiry": "2027-05-25",
+    "built": "2020",
+    "mtom": "  2980",
+    "hex_code": "48605B"
+  },
+  {
+    "registration": "PH-NCG",
+    "manufacturer": "AgustaWestland (\"Yeovil\")",
+    "model": "AW189",
+    "airw_expiry": "2026-10-27",
+    "built": "2015",
+    "mtom": "  8600",
+    "hex_code": "48644B"
+  },
+  {
+    "registration": "PH-OOP",
+    "manufacturer": "Airbus Helicopters Deutschland GmbH",
+    "model": "MBB-BK 117 D-2",
+    "airw_expiry": "2027-01-19",
+    "built": "2015",
+    "mtom": "  3700",
+    "hex_code": "4853E2"
+  },
+  {
+    "registration": "PH-PXA",
+    "manufacturer": "Eurocopter Deutschland GmbH",
+    "model": "EC135 P2+",
+    "airw_expiry": "2027-06-30",
     "built": "2009",
-    "mtom": "  6800",
-    "hex_code": "484AC1"
+    "mtom": "  2950",
+    "hex_code": "484A91"
   },
   {
-    "registration": "N-258",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
+    "registration": "PH-PXB",
+    "manufacturer": "Eurocopter Deutschland GmbH",
+    "model": "EC135 P2+",
+    "airw_expiry": "2027-06-30",
+    "built": "2009",
+    "mtom": "  2950",
+    "hex_code": "484A92"
   },
   {
-    "registration": "N-277",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
+    "registration": "PH-PXC",
+    "manufacturer": "Eurocopter Deutschland GmbH",
+    "model": "EC135 P2+",
+    "airw_expiry": "2028-07-23",
+    "built": "2009",
+    "mtom": "  2950",
+    "hex_code": "484A93"
   },
   {
-    "registration": "N-233",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
+    "registration": "PH-PXD",
+    "manufacturer": "Eurocopter Deutschland GmbH",
+    "model": "EC135 P2+",
+    "airw_expiry": "2029-09-14",
+    "built": "2009",
+    "mtom": "  2950",
+    "hex_code": "484A94"
   },
   {
-    "registration": "N-164",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "C-FCGE",
-    "manufacturer": "DE HAVILLAND CANADA",
-    "model": "DHC-8-102",
-    "airw_expiry": "",
-    "built": "1986",
-    "mtom": "15649",
-    "hex_code": "C00B21"
-  },
-  {
-    "registration": "N-102",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
+    "registration": "PH-PXE",
+    "manufacturer": "Eurocopter Deutschland GmbH",
+    "model": "EC135 P2+",
+    "airw_expiry": "2028-07-26",
+    "built": "2009",
+    "mtom": "  2950",
+    "hex_code": "484A95"
   },
   {
     "registration": "PH-PXX",
@@ -333,39 +315,57 @@
     "hex_code": "485B2F"
   },
   {
-    "registration": "N-088",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
+    "registration": "PH-PXY",
+    "manufacturer": "Agusta S.p.A., Divisione Elicotteri",
+    "model": "AW139",
+    "airw_expiry": "2028-12-11",
+    "built": "2009",
+    "mtom": "  6800",
+    "hex_code": "484AC1"
   },
   {
-    "registration": "PH-HLP",
+    "registration": "PH-PXZ",
+    "manufacturer": "Agusta S.p.A., Divisione Elicotteri",
+    "model": "AW139",
+    "airw_expiry": "2026-10-08",
+    "built": "2009",
+    "mtom": "  6800",
+    "hex_code": "484AC0"
+  },
+  {
+    "registration": "PH-RSQ",
+    "manufacturer": "Leonardo S.p.a. Helicopters",
+    "model": "AW189",
+    "airw_expiry": "2027-01-09",
+    "built": "2017",
+    "mtom": "  8600",
+    "hex_code": "48644A"
+  },
+  {
+    "registration": "PH-SAR",
+    "manufacturer": "Leonardo S.p.a. Helicopters",
+    "model": "AW189",
+    "airw_expiry": "2026-10-27",
+    "built": "2022",
+    "mtom": "  8600",
+    "hex_code": "486449"
+  },
+  {
+    "registration": "PH-TTR",
     "manufacturer": "Airbus Helicopters Deutschland GmbH",
     "model": "EC135 P3H",
-    "airw_expiry": "2027-06-18",
-    "built": "2026",
+    "airw_expiry": "2027-01-01",
+    "built": "2017",
     "mtom": "  2980",
-    "hex_code": "486A30"
+    "hex_code": "4857B3"
   },
   {
-    "registration": "N-319",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
-  },
-  {
-    "registration": "N-175",
-    "manufacturer": "",
-    "model": "",
-    "airw_expiry": "",
-    "built": "",
-    "mtom": "",
-    "hex_code": ""
+    "registration": "PH-UMC",
+    "manufacturer": "Airbus Helicopters Deutschland GmbH",
+    "model": "EC135 P3H",
+    "airw_expiry": "2027-06-22",
+    "built": "2020",
+    "mtom": "  2980",
+    "hex_code": "48605C"
   }
 ]
